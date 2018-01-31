@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-16"?><BOM><BO><AdmInfo><Object>152</Object><Version>2</Version></AdmInfo><UserFieldsMD><row><Name>Value</Name><Type>db_Float</Type><Size>16</Size><Description>Value</Description><SubType>st_Sum</SubType><TableName>@BYB_T1WT301</TableName><FieldID>1</FieldID><EditSize>16</EditSize><Mandatory>tNO</Mandatory></row></UserFieldsMD></BO></BOM>
