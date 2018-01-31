@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LoadFiles>
+  <File>
+    <definition>
+      <location>LoadData\BYB_T1EXP800</location>
+      <UDO>BYB_T1EXP800</UDO>
+    </definition>
+    <mapping>
+      <column index="0" property="Code"></column>
+      <column index="1" property="Name"></column>
+      <column index="2" property="U_STATYPE"></column>
+    </mapping>
+  </File>
+
+
+</LoadFiles> 

@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-16"?><BOM><BO><AdmInfo><Object>152</Object><Version>2</Version></AdmInfo><UserFieldsMD><row><Name>DocNum</Name><Type>db_Numeric</Type><Size>11</Size><Description>DocNum</Description><TableName>@BYB_T1SWT200</TableName><FieldID>8</FieldID><EditSize>10</EditSize><Mandatory>tNO</Mandatory></row></UserFieldsMD></BO></BOM>

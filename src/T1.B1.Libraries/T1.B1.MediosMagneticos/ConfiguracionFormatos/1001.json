@@ -1,0 +1,9 @@
+﻿{
+  "5001": {
+    "Description": "Valor acumulado efectivamente pagado al trabajador",
+    "Include": [ "5105", "5205", "7205", "2510", "2520", "2525", "236505" ],
+    "Exclude": [ "510559", "520559", "720569" ]
+
+  }
+
+}
