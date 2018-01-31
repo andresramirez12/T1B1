@@ -1,0 +1,7 @@
+﻿{
+  "nancyLocalAddress": "https://localhost:9010",
+  "T1Server": {
+    "logLevel": "Debug",
+    "moduleListFile": "ModuleLibraryList.json"
+  }
+}

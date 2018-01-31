@@ -1,0 +1,26 @@
+﻿[
+  {
+    "ExternalLibrary": "Veternet.Nancy.Module.Authentication",
+    "NameSpace": "Veternet.nMod.Authentication",
+    "Contructor": "Operations",
+    "LibraryType": "NA"
+  },
+  {
+    "ExternalLibrary": "Veternet.Nancy.Module.RootModule",
+    "NameSpace": "Veternet.nMod.RootModule",
+    "Contructor": "Operations",
+    "LibraryType": "NA"
+  },
+  {
+    "ExternalLibrary": "Veternet.NancyModule.Secure",
+    "NameSpace": "Veternet.nMod.Secure",
+    "Contructor": "Operations",
+    "LibraryType": "NA"
+  },
+  {
+    "ExternalLibrary": "Veternet.StatusCodeModule",
+    "NameSpace": "Veternet.nMod.StatusCodesModule",
+    "Contructor": "StatusCodesModule",
+    "LibraryType": "NA"
+  }
+]
