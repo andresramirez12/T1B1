@@ -1,0 +1,4 @@
+﻿<Menu String="Autoretenciones" Enabled="1" Position="1" Checked="0" FatherUID="BYB_M001" Image="" Type="2" UniqueID="BYB_M002"/>
+<Menu String="Configuración" Enabled="1" Position="1" Checked="0" FatherUID="BYB_M002" Image="" Type="2" UniqueID="BYB_M003"/>
+<Menu String="Herramientas" Enabled="1" Position="2" Checked="0" FatherUID="BYB_M002" Image="" Type="2" UniqueID="BYB_M004"/>
+<Menu String="Informes" Enabled="1" Position="3" Checked="0" FatherUID="BYB_M002" Image="" Type="2" UniqueID="BYB_M005"/>
