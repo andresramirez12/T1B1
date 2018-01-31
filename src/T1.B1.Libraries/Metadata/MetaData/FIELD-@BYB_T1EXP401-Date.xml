@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-16"?><BOM><BO><AdmInfo><Object>152</Object><Version>2</Version></AdmInfo><UserFieldsMD><row><Name>Date</Name><Type>db_Date</Type><Size>8</Size><Description>Fecha</Description><DefaultValue></DefaultValue><TableName>@BYB_T1EXP401</TableName><FieldID>3</FieldID><EditSize>8</EditSize><Mandatory>tNO</Mandatory></row></UserFieldsMD></BO></BOM>
