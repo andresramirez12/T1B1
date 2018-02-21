@@ -18,34 +18,39 @@ namespace T1.Log
         static private Instance _logg = null;
         private Instance()
         {
-            string AppDataPath = AppDomain.CurrentDomain.BaseDirectory + "\\BYB\\T1";
-            if (!Directory.Exists(AppDataPath))
+            string AppDataPath = T1.Log.Settings._Main.logFolder;
+
+            try
             {
-                Directory.CreateDirectory(Settings.AppDataPath);
+                Hierarchy hierarchy = (Hierarchy)LogManager.GetRepository();
+
+                PatternLayout patternLayout = new PatternLayout();
+                patternLayout.ConversionPattern = T1.Log.Settings._Main.pattern;
+                patternLayout.ActivateOptions();
+
+                RollingFileAppender roller = new RollingFileAppender();
+                roller.AppendToFile = false;
+                roller.File = AppDataPath + T1.Log.Settings._Main.masterLogName;
+                roller.Layout = patternLayout;
+                roller.MaxSizeRollBackups = Settings._Main.numberOfLogs;
+                roller.MaximumFileSize = T1.Log.Settings._Main.masterSize;
+                roller.RollingStyle = RollingFileAppender.RollingMode.Size;
+                roller.AppendToFile = true;
+                log4net.Filter.LevelRangeFilter filter = new log4net.Filter.LevelRangeFilter();
+                filter.LevelMin = log4net.Core.Level.Error;
+                filter.ActivateOptions();
+                roller.AddFilter(filter);
+                roller.ActivateOptions();
+                hierarchy.Root.AddAppender(roller);
+                hierarchy.Configured = true;
             }
-
-
-            Hierarchy hierarchy = (Hierarchy)LogManager.GetRepository();
-
-            PatternLayout patternLayout = new PatternLayout();
-            patternLayout.ConversionPattern = T1.Log.Settings._Main.pattern;
-            patternLayout.ActivateOptions();
-
-            RollingFileAppender roller = new RollingFileAppender();
-            roller.AppendToFile = false;
-            roller.File = AppDataPath + T1.Log.Settings._Main.logFolder + T1.Log.Settings._Main.masterLogName;
-            roller.Layout = patternLayout;
-            roller.MaxSizeRollBackups = 5;
-            roller.MaximumFileSize = T1.Log.Settings._Main.masterSize;
-            roller.RollingStyle = RollingFileAppender.RollingMode.Size;
-            roller.AppendToFile = true;
-            log4net.Filter.LevelRangeFilter filter = new log4net.Filter.LevelRangeFilter();
-            filter.LevelMin = log4net.Core.Level.Error;
-            filter.ActivateOptions();
-            roller.AddFilter(filter);
-            roller.ActivateOptions();
-            hierarchy.Root.AddAppender(roller);
-            hierarchy.Configured = true;
+            catch(Exception er)
+            {
+                using (StreamWriter sw = new StreamWriter(AppDomain.CurrentDomain.BaseDirectory + "\\FatalLogError.log", true))
+                {
+                    sw.WriteLine(er.Message);
+                }
+            }
         }
 
         public static ILog GetLogger(Type tBaseType, string levelName)
@@ -54,51 +59,59 @@ namespace T1.Log
             {
                 _logg = new Instance();
             }
-            ILog logResult = null;
-            string strTypeName = tBaseType.FullName;
-            log4net.Appender.IAppender[] objAppenders = log4net.LogManager.GetRepository().GetAppenders();
-            bool blFound = false;
-            if (objAppenders.Length > 0)
+            
+                ILog logResult = null;
+            try
             {
-                for (int i = 0; i < objAppenders.Length; i++)
+                string strTypeName = tBaseType.FullName;
+                log4net.Appender.IAppender[] objAppenders = log4net.LogManager.GetRepository().GetAppenders();
+                bool blFound = false;
+                if (objAppenders.Length > 0)
                 {
-                    log4net.Appender.IAppender objA = objAppenders[i];
-                    if (strTypeName + T1.Log.Settings._Main.appenderSufix == objA.Name)
+                    for (int i = 0; i < objAppenders.Length; i++)
                     {
-                        blFound = true;
-                        break;
+                        log4net.Appender.IAppender objA = objAppenders[i];
+                        if (strTypeName + T1.Log.Settings._Main.appenderSufix == objA.Name)
+                        {
+                            blFound = true;
+                            break;
+                        }
                     }
                 }
+                if (blFound)
+                {
+                    logResult = LogManager.GetLogger(strTypeName);
+                }
+                else
+                {
+                    SetLevel(strTypeName, levelName);
+                    AddAppender(strTypeName, CreateFileAppender(strTypeName, strTypeName, levelName));
+                    logResult = LogManager.GetLogger(strTypeName);
+                }
             }
-            if (blFound)
+            catch (Exception er)
             {
-                logResult = LogManager.GetLogger(strTypeName);
-            }
-            else
-            {
-                SetLevel(strTypeName, levelName);
-                AddAppender(strTypeName, CreateFileAppender(strTypeName, strTypeName, levelName));
-                logResult = LogManager.GetLogger(strTypeName);
+                using (StreamWriter sw = new StreamWriter(AppDomain.CurrentDomain.BaseDirectory + "\\FatalLogError.log", true))
+                {
+                    sw.WriteLine(er.Message);
+                }
             }
             return logResult;
         }
 
         public static log4net.Appender.IAppender CreateFileAppender(string name, string fileName, string levelName)
         {
-            string AppDataPath = AppDomain.CurrentDomain.BaseDirectory + "\\BYB\\T1";
-            if (!Directory.Exists(AppDataPath))
-            {
-                Directory.CreateDirectory(Settings.AppDataPath);
-            }
+            string AppDataPath = T1.Log.Settings._Main.logFolder;
 
 
             log4net.Appender.RollingFileAppender appender = new
             log4net.Appender.RollingFileAppender();
+            try { 
             appender.Name = name + T1.Log.Settings._Main.appenderSufix;
-            appender.File = AppDataPath + T1.Log.Settings._Main.logFolder + fileName + ".log";
+            appender.File = AppDataPath + fileName + ".log";
             appender.AppendToFile = true;
             appender.RollingStyle = log4net.Appender.RollingFileAppender.RollingMode.Size;
-            appender.MaxSizeRollBackups = -1;
+            appender.MaxSizeRollBackups = Settings._Main.numberOfLogs;
             appender.MaximumFileSize = T1.Log.Settings._Main.masterSize;
             appender.CountDirection = 1;
 
@@ -150,24 +163,51 @@ namespace T1.Log
             appender.AddFilter(filter);
 
             appender.ActivateOptions();
+            }
+            catch (Exception er)
+            {
+                using (StreamWriter sw = new StreamWriter(AppDomain.CurrentDomain.BaseDirectory + "\\FatalLogError.log", true))
+                {
+                    sw.WriteLine(er.Message);
+                }
+            }
 
             return appender;
         }
 
         public static void SetLevel(string loggerName, string levelName)
         {
+            try { 
             log4net.ILog log = log4net.LogManager.GetLogger(loggerName);
             log4net.Repository.Hierarchy.Logger l = (log4net.Repository.Hierarchy.Logger)log.Logger;
 
             l.Level = l.Hierarchy.LevelMap[levelName];
+            }
+            catch (Exception er)
+            {
+                using (StreamWriter sw = new StreamWriter(AppDomain.CurrentDomain.BaseDirectory + "\\FatalLogError.log", true))
+                {
+                    sw.WriteLine(er.Message);
+                }
+            }
         }
 
         // Add an appender to a logger
         public static void AddAppender(string loggerName, log4net.Appender.IAppender appender)
         {
-            log4net.ILog log = log4net.LogManager.GetLogger(loggerName);
-            log4net.Repository.Hierarchy.Logger l = (log4net.Repository.Hierarchy.Logger)log.Logger;
-            l.AddAppender(appender);
+            try
+            {
+                log4net.ILog log = log4net.LogManager.GetLogger(loggerName);
+                log4net.Repository.Hierarchy.Logger l = (log4net.Repository.Hierarchy.Logger)log.Logger;
+                l.AddAppender(appender);
+            }
+            catch (Exception er)
+            {
+                using (StreamWriter sw = new StreamWriter(AppDomain.CurrentDomain.BaseDirectory + "\\FatalLogError.log", true))
+                {
+                    sw.WriteLine(er.Message);
+                }
+            }
         }
     }
 }
