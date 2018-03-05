@@ -1,0 +1,3 @@
+﻿{
+  "getMissingOperationsQuery": "select \"DocEntry\",\"DocNum\" as \"Numero\",\"CardCode\" as \"Socio de Negocio\",'Factura Proveedor' as \"Documento\", \"DocTotal\" as \"Total del Documento\"  from OPCH where \"DocEntry\" not in ( select distinct \"U_DocEntry\" from [@BYB_T1WT200] where \"U_DocType\" = 18)"
+}

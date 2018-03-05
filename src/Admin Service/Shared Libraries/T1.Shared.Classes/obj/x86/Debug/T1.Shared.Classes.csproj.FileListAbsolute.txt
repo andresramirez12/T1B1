@@ -1,0 +1,4 @@
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\Admin Service\Shared Libraries\T1.Shared.Classes\bin\x86\Debug\T1.Shared.Classes.dll
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\Admin Service\Shared Libraries\T1.Shared.Classes\bin\x86\Debug\T1.Shared.Classes.pdb
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\Admin Service\Shared Libraries\T1.Shared.Classes\obj\x86\Debug\T1.Shared.Classes.dll
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\Admin Service\Shared Libraries\T1.Shared.Classes\obj\x86\Debug\T1.Shared.Classes.pdb

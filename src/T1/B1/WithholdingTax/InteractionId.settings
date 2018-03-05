@@ -1,0 +1,24 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="T1.B1.WithholdingTax" GeneratedClassName="InteractionId">
+  <Profiles />
+  <Settings>
+    <Setting Name="mnuWHTMasterFormId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">bybwhtm001</Value>
+    </Setting>
+    <Setting Name="frmWHTMasterFormId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">bybwhtf001</Value>
+    </Setting>
+    <Setting Name="frmWHTMasterFormType" Type="System.String" Scope="User">
+      <Value Profile="(Default)">bybwhtf001</Value>
+    </Setting>
+    <Setting Name="mnuWHTMasterParent" Type="System.String" Scope="User">
+      <Value Profile="(Default)">15616</Value>
+    </Setting>
+    <Setting Name="mnuWHTReportId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">bybrptm01</Value>
+    </Setting>
+    <Setting Name="mnuWHTMainMenuId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">bybwhtm01</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

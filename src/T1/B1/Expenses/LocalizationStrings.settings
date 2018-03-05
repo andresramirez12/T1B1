@@ -1,0 +1,24 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="T1.B1.Expenses" GeneratedClassName="LocalizationStrings">
+  <Profiles />
+  <Settings>
+    <Setting Name="T1ExpensesMainMenuString" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Legalizaciones</Value>
+    </Setting>
+    <Setting Name="T1ExpensesConceptsMenuString" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Conceptos</Value>
+    </Setting>
+    <Setting Name="T1ExpensesExpenseTypeMenuString" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Tipos de Legalización</Value>
+    </Setting>
+    <Setting Name="T1ExpensesConfigurationMenuString" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Configuración</Value>
+    </Setting>
+    <Setting Name="T1ExpensesRequestMenuString" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Solicitud de Legalización</Value>
+    </Setting>
+    <Setting Name="T1ExpensesReportMenuString" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Registro de Legalización</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

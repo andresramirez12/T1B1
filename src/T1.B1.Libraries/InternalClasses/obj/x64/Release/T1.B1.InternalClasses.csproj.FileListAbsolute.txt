@@ -1,0 +1,10 @@
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\InternalClasses\bin\x64\Release\InternalClasses.dll
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\InternalClasses\bin\x64\Release\log4net.dll
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\InternalClasses\bin\x64\Release\Newtonsoft.Json.dll
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\InternalClasses\bin\x64\Release\Westwind.Utilities.Configuration.dll
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\InternalClasses\bin\x64\Release\log4net.xml
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\InternalClasses\bin\x64\Release\Newtonsoft.Json.xml
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\InternalClasses\bin\x64\Release\Westwind.Utilities.Configuration.xml
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\InternalClasses\obj\x64\Release\Interop.SAPbobsCOM.dll
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\InternalClasses\obj\x64\Release\T1.B1.InternalClasses.csproj.ResolveComReference.cache
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\InternalClasses\obj\x64\Release\InternalClasses.dll

@@ -3,3 +3,8 @@
 ################################################################################
 
 /src/T1.GeneralClasses/T1.Log/bin
+/src/T1.GeneralClasses/T1.Log/obj
+/.vs
+/src/.vs
+/src/CacheManager/bin
+/src/CacheManager/obj

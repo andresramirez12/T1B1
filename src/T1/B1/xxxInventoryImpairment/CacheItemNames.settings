@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SAPIFRS.B1.InventoryImpairment" GeneratedClassName="CacheItemNames">
+  <Profiles />
+  <Settings>
+    <Setting Name="strItemFrom" Type="System.String" Scope="User">
+      <Value Profile="(Default)">cacheII001</Value>
+    </Setting>
+    <Setting Name="strItemTo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">cacheII002</Value>
+    </Setting>
+    <Setting Name="strItemGroup" Type="System.String" Scope="User">
+      <Value Profile="(Default)">cacheII003</Value>
+    </Setting>
+    <Setting Name="strWarehouseCodeFrom" Type="System.String" Scope="User">
+      <Value Profile="(Default)">cacheII004</Value>
+    </Setting>
+    <Setting Name="strWarehoseCodeTo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">caheII005</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

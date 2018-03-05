@@ -1,0 +1,13 @@
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\InternalClasses\bin\Debug\InternalClasses.dll
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\InternalClasses\bin\Debug\InternalClasses.pdb
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\InternalClasses\bin\Debug\log4net.dll
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\InternalClasses\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\InternalClasses\bin\Debug\Westwind.Utilities.Configuration.dll
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\InternalClasses\bin\Debug\log4net.xml
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\InternalClasses\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\InternalClasses\bin\Debug\Westwind.Utilities.Configuration.xml
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\InternalClasses\obj\Debug\T1.B1.InternalClasses.csprojResolveAssemblyReference.cache
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\InternalClasses\obj\Debug\Interop.SAPbobsCOM.dll
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\InternalClasses\obj\Debug\T1.B1.InternalClasses.csproj.ResolveComReference.cache
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\InternalClasses\obj\Debug\InternalClasses.dll
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\InternalClasses\obj\Debug\InternalClasses.pdb

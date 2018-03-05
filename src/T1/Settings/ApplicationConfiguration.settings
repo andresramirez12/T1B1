@@ -1,0 +1,36 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SAPIFRS.Settings" GeneratedClassName="ApplicationConfiguration">
+  <Profiles />
+  <Settings>
+    <Setting Name="useRaygun" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="useEventLog" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="eventSourceName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">SAP B1 IFRS</Value>
+    </Setting>
+    <Setting Name="eventLogName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Application</Value>
+    </Setting>
+    <Setting Name="useCompatibilityConnection" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="isHANA" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="isCloud" Type="System.String" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="logPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\SAP\IFRS\log\</Value>
+    </Setting>
+    <Setting Name="logName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">{0}{1}log.txt</Value>
+    </Setting>
+    <Setting Name="ConfigTable" Type="System.String" Scope="User">
+      <Value Profile="(Default)">@SAPIFRS</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,45 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="T1.B1.Expenses" GeneratedClassName="InteractionId">
+  <Profiles />
+  <Settings>
+    <Setting Name="T1ExpensesMainMenuId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BYBMEX01</Value>
+    </Setting>
+    <Setting Name="T1ExpensesConceptsMenuId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BYBMEX02</Value>
+    </Setting>
+    <Setting Name="T1ExpensesExpenseTypeMenuId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BYBMEX03</Value>
+    </Setting>
+    <Setting Name="T1ExpensesConfigurationMenuId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BYBMEX04</Value>
+    </Setting>
+    <Setting Name="T1ExpensesRequestMenuId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BYBMEX05</Value>
+    </Setting>
+    <Setting Name="T1ExpensesReportMenuId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BYBMEX06</Value>
+    </Setting>
+    <Setting Name="T1ExpensesConceptsParentMenuId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BYBMEX04</Value>
+    </Setting>
+    <Setting Name="T1ExpensesExpenseTypeParentMenuId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BYBMEX04</Value>
+    </Setting>
+    <Setting Name="T1ExpensesConfigurationParentMenuId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BYBMEX01</Value>
+    </Setting>
+    <Setting Name="T1ExpensesRequestParentMenuId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BYBMEX01</Value>
+    </Setting>
+    <Setting Name="T1ExpensesReportParentMenuId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BYBMEX01</Value>
+    </Setting>
+    <Setting Name="T1ExpensesMainParentMenuId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BYBMS01</Value>
+    </Setting>
+    <Setting Name="T1ExpensesTransactionCode" Type="System.String" Scope="User">
+      <Value Profile="(Default)">T1LG</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,99 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SAPIFRS.B1.FSNotes" GeneratedClassName="InteractionId">
+  <Profiles />
+  <Settings>
+    <Setting Name="mnuNotesLoadId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">sapfsn001</Value>
+    </Setting>
+    <Setting Name="notesLoadMenuParentId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">13056</Value>
+    </Setting>
+    <Setting Name="fsNotesMainFormId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">sapfsn002</Value>
+    </Setting>
+    <Setting Name="fsNotesFormType" Type="System.String" Scope="User">
+      <Value Profile="(Default)">SAP_FSN001</Value>
+    </Setting>
+    <Setting Name="fsNotesUDOName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">SAPNFS</Value>
+    </Setting>
+    <Setting Name="fsValidValuesString" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&lt;ValidValue value="{0}" description="{1}" /&gt;</Value>
+    </Setting>
+    <Setting Name="mdTablePath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">/Metadata/Tables/item</Value>
+    </Setting>
+    <Setting Name="mdUserFieldsPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">/Metadata/UserFields/item</Value>
+    </Setting>
+    <Setting Name="mdUDOPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">/Metadata/UDO/item</Value>
+    </Setting>
+    <Setting Name="configModuleCode" Type="System.String" Scope="User">
+      <Value Profile="(Default)">FSNotes</Value>
+    </Setting>
+    <Setting Name="crReportTypeNameAttribute" Type="System.String" Scope="User">
+      <Value Profile="(Default)">name</Value>
+    </Setting>
+    <Setting Name="crReportFormIdAttribute" Type="System.String" Scope="User">
+      <Value Profile="(Default)">formId</Value>
+    </Setting>
+    <Setting Name="configModuleName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Financial Statements Notes</Value>
+    </Setting>
+    <Setting Name="configModuleVersion" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0.1.0.2</Value>
+    </Setting>
+    <Setting Name="crReportNameAttribute" Type="System.String" Scope="User">
+      <Value Profile="(Default)">name</Value>
+    </Setting>
+    <Setting Name="crReportPathAttribute" Type="System.String" Scope="User">
+      <Value Profile="(Default)">file</Value>
+    </Setting>
+    <Setting Name="formTypeCmbId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">cmbType</Value>
+    </Setting>
+    <Setting Name="formTypeCmbSelectedValue_1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Example Note</Value>
+    </Setting>
+    <Setting Name="formTypeCmbSelectedValue_2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Custom Note</Value>
+    </Setting>
+    <Setting Name="formTypeCmbSelecterdBase" Type="System.String" Scope="User">
+      <Value Profile="(Default)">formTypeCmbSelectedValue_</Value>
+    </Setting>
+    <Setting Name="configReportNodePath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">/VersionControl/Module[./AdminInfo/Code/text()='{0}']/Installation/Report/Item[@name='{1}']</Value>
+    </Setting>
+    <Setting Name="configReportCodeAttribute" Type="System.String" Scope="User">
+      <Value Profile="(Default)">code</Value>
+    </Setting>
+    <Setting Name="formTypeCmbNote" Type="System.String" Scope="User">
+      <Value Profile="(Default)">cmbNotes</Value>
+    </Setting>
+    <Setting Name="configReportTypeAttribute" Type="System.String" Scope="User">
+      <Value Profile="(Default)">typeCode</Value>
+    </Setting>
+    <Setting Name="formButtonGetId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">btnGet</Value>
+    </Setting>
+    <Setting Name="formPreviewMenuId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">519</Value>
+    </Setting>
+    <Setting Name="formCusomtTextId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">txtCustom</Value>
+    </Setting>
+    <Setting Name="formButtonUpdateId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">btnUpdate</Value>
+    </Setting>
+    <Setting Name="formCustomTextDS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">UD_Custom</Value>
+    </Setting>
+    <Setting Name="formNoteNumberDS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">UD_NId</Value>
+    </Setting>
+    <Setting Name="formTypeDS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">UD_Ntype</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SAPIFRS.B1.FixedAssets" GeneratedClassName="CacheItemNames">
+  <Profiles />
+  <Settings>
+    <Setting Name="fixedAssetsRightClickForm" Type="System.String" Scope="User">
+      <Value Profile="(Default)">faForm</Value>
+    </Setting>
+    <Setting Name="fixedAssetsCurrentKey" Type="System.String" Scope="User">
+      <Value Profile="(Default)">faCurrentKey</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

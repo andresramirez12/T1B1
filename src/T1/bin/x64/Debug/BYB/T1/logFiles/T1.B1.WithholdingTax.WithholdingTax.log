@@ -1,0 +1,60 @@
+2018-01-30 06:36:02,847 [8] ERROR T1.B1.WithholdingTax.WithholdingTax - (null) - 
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: Cannot implicitly convert type 'double' to 'string'
+   at CallSite.Target(Closure , CallSite , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at T1.B1.WithholdingTax.WithholdingTax.createMissingOperations(ItemEvent pVal) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.WithholdingTax\WithholdingTax.cs:line 871
+2018-01-30 06:55:07,862 [6] ERROR T1.B1.WithholdingTax.WithholdingTax - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFF428): Estructura de consulta no permitida  [300-33]. The SQL error is 8180
+   at SAPbouiCOM.IDataTable.ExecuteQuery(String Query)
+   at T1.B1.WithholdingTax.WithholdingTax.loadMissingOperationsForm() in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.WithholdingTax\WithholdingTax.cs:line 789
+2018-01-30 06:55:09,852 [7] ERROR T1.B1.WithholdingTax.WithholdingTax - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFF428): Estructura de consulta no permitida  [300-33]. The SQL error is 8180
+   at SAPbouiCOM.IDataTable.ExecuteQuery(String Query)
+   at T1.B1.WithholdingTax.WithholdingTax.loadMissingOperationsForm() in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.WithholdingTax\WithholdingTax.cs:line 789
+2018-01-30 06:55:11,432 [7] ERROR T1.B1.WithholdingTax.WithholdingTax - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFF428): Estructura de consulta no permitida  [300-33]. The SQL error is 8180
+   at SAPbouiCOM.IDataTable.ExecuteQuery(String Query)
+   at T1.B1.WithholdingTax.WithholdingTax.loadMissingOperationsForm() in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.WithholdingTax\WithholdingTax.cs:line 789
+2018-01-30 06:55:12,883 [7] ERROR T1.B1.WithholdingTax.WithholdingTax - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFF428): Estructura de consulta no permitida  [300-33]. The SQL error is 8180
+   at SAPbouiCOM.IDataTable.ExecuteQuery(String Query)
+   at T1.B1.WithholdingTax.WithholdingTax.loadMissingOperationsForm() in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.WithholdingTax\WithholdingTax.cs:line 789
+2018-01-30 06:55:14,413 [7] ERROR T1.B1.WithholdingTax.WithholdingTax - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFF428): Estructura de consulta no permitida  [300-33]. The SQL error is 8180
+   at SAPbouiCOM.IDataTable.ExecuteQuery(String Query)
+   at T1.B1.WithholdingTax.WithholdingTax.loadMissingOperationsForm() in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.WithholdingTax\WithholdingTax.cs:line 789
+2018-01-30 06:55:16,390 [7] ERROR T1.B1.WithholdingTax.WithholdingTax - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFF428): Estructura de consulta no permitida  [300-33]. The SQL error is 8180
+   at SAPbouiCOM.IDataTable.ExecuteQuery(String Query)
+   at T1.B1.WithholdingTax.WithholdingTax.loadMissingOperationsForm() in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.WithholdingTax\WithholdingTax.cs:line 789
+2018-01-30 06:55:19,328 [7] ERROR T1.B1.WithholdingTax.WithholdingTax - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFF428): Estructura de consulta no permitida  [300-33]. The SQL error is 8180
+   at SAPbouiCOM.IDataTable.ExecuteQuery(String Query)
+   at T1.B1.WithholdingTax.WithholdingTax.loadMissingOperationsForm() in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.WithholdingTax\WithholdingTax.cs:line 789
+2018-01-30 06:55:24,153 [7] ERROR T1.B1.WithholdingTax.WithholdingTax - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFF428): Estructura de consulta no permitida  [300-33]. The SQL error is 8180
+   at SAPbouiCOM.IDataTable.ExecuteQuery(String Query)
+   at T1.B1.WithholdingTax.WithholdingTax.loadMissingOperationsForm() in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.WithholdingTax\WithholdingTax.cs:line 789
+2018-01-30 06:55:25,977 [7] ERROR T1.B1.WithholdingTax.WithholdingTax - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFF428): Estructura de consulta no permitida  [300-33]. The SQL error is 8180
+   at SAPbouiCOM.IDataTable.ExecuteQuery(String Query)
+   at T1.B1.WithholdingTax.WithholdingTax.loadMissingOperationsForm() in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.WithholdingTax\WithholdingTax.cs:line 789
+2018-01-30 06:55:34,457 [7] ERROR T1.B1.WithholdingTax.WithholdingTax - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFF428): Estructura de consulta no permitida  [300-33]. The SQL error is 8180
+   at SAPbouiCOM.IDataTable.ExecuteQuery(String Query)
+   at T1.B1.WithholdingTax.WithholdingTax.loadMissingOperationsForm() in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.WithholdingTax\WithholdingTax.cs:line 789
+2018-01-30 06:56:38,100 [7] ERROR T1.B1.WithholdingTax.WithholdingTax - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFF428): Estructura de consulta no permitida  [300-33]. The SQL error is 8180
+   at SAPbouiCOM.IDataTable.ExecuteQuery(String Query)
+   at T1.B1.WithholdingTax.WithholdingTax.loadMissingOperationsForm() in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.WithholdingTax\WithholdingTax.cs:line 789
+2018-01-30 07:11:54,588 [8] ERROR T1.B1.WithholdingTax.WithholdingTax - (null) - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at T1.B1.WithholdingTax.WithholdingTax.createMissingOperations(ItemEvent pVal) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.WithholdingTax\WithholdingTax.cs:line 898
+2018-01-30 07:41:27,410 [6] ERROR T1.B1.WithholdingTax.WithholdingTax - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFF428): Estructura de consulta no permitida  [300-33]. The SQL error is 8180
+   at SAPbouiCOM.IDataTable.ExecuteQuery(String Query)
+   at T1.B1.WithholdingTax.WithholdingTax.loadMissingOperationsForm() in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.WithholdingTax\WithholdingTax.cs:line 790
+2018-01-30 07:41:38,678 [6] ERROR T1.B1.WithholdingTax.WithholdingTax - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFF428): Estructura de consulta no permitida  [300-33]. The SQL error is 8180
+   at SAPbouiCOM.IDataTable.ExecuteQuery(String Query)
+   at T1.B1.WithholdingTax.WithholdingTax.loadMissingOperationsForm() in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.WithholdingTax\WithholdingTax.cs:line 790

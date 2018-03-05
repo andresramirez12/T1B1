@@ -1,0 +1,60 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SAPIFRS.B1.BPImpairment" GeneratedClassName="InteractionId">
+  <Profiles />
+  <Settings>
+    <Setting Name="mnuBPFilteringId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">sapbp001</Value>
+    </Setting>
+    <Setting Name="frmBPFilteringFormId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">sapbp002</Value>
+    </Setting>
+    <Setting Name="frmBPFilteringFormType" Type="System.String" Scope="User">
+      <Value Profile="(Default)">sapbp003</Value>
+    </Setting>
+    <Setting Name="mnuBPFilteringParent" Type="System.String" Scope="User">
+      <Value Profile="(Default)">43536</Value>
+    </Setting>
+    <Setting Name="frmBPResultFormId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">sapbp004</Value>
+    </Setting>
+    <Setting Name="frmBPResultFormType" Type="System.String" Scope="User">
+      <Value Profile="(Default)">sapbp005</Value>
+    </Setting>
+    <Setting Name="mdTablePath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">/Metadata/Tables/item</Value>
+    </Setting>
+    <Setting Name="mdUserFieldsPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">/Metadata/UserFields/item</Value>
+    </Setting>
+    <Setting Name="mdUDOPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">/Metadata/UDO/item</Value>
+    </Setting>
+    <Setting Name="InvoiceObjectType" Type="System.String" Scope="User">
+      <Value Profile="(Default)">13</Value>
+    </Setting>
+    <Setting Name="PurchaseObjectType" Type="System.String" Scope="User">
+      <Value Profile="(Default)">18</Value>
+    </Setting>
+    <Setting Name="frmBPFilteringQueryButtonId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Item_16</Value>
+    </Setting>
+    <Setting Name="frmBPImpairmentGridId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Item_15</Value>
+    </Setting>
+    <Setting Name="frmBPImpairmentColumnIndex" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Indice</Value>
+    </Setting>
+    <Setting Name="frmBPImpairmentColumnDeterioro" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Deterioro</Value>
+    </Setting>
+    <Setting Name="frmBPImpairmentColumnPercentage" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Porcentaje</Value>
+    </Setting>
+    <Setting Name="frmBPImpairmentButtonSumId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Item_1</Value>
+    </Setting>
+    <Setting Name="frmBPImpairmentButtonContabId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Item_16</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

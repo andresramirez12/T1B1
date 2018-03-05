@@ -1,0 +1,50 @@
+2017-12-15 05:46:14,048 [1] DEBUG T1.Program - (null) - Adding ConnectionString to cache
+2017-12-15 05:46:14,095 [1] DEBUG T1.Program - (null) - Starting Connection to SAP Business One
+2017-12-15 05:46:22,027 [1] INFO T1.Program - (null) - Connection status True
+2017-12-15 05:48:48,738 [1] DEBUG T1.Program - (null) - Adding ConnectionString to cache
+2017-12-15 05:48:48,857 [1] DEBUG T1.Program - (null) - Starting Connection to SAP Business One
+2017-12-15 05:48:50,359 [1] INFO T1.Program - (null) - Connection status True
+2017-12-15 05:53:53,952 [1] DEBUG T1.Program - (null) - Adding ConnectionString to cache
+2017-12-15 05:53:54,131 [1] DEBUG T1.Program - (null) - Starting Connection to SAP Business One
+2017-12-15 05:53:55,918 [1] INFO T1.Program - (null) - Connection status True
+2017-12-15 05:59:48,433 [1] DEBUG T1.Program - (null) - Adding ConnectionString to cache
+2017-12-15 05:59:48,467 [1] DEBUG T1.Program - (null) - Starting Connection to SAP Business One
+2017-12-15 06:01:25,085 [1] DEBUG T1.Program - (null) - Adding ConnectionString to cache
+2017-12-15 06:01:25,162 [1] DEBUG T1.Program - (null) - Starting Connection to SAP Business One
+2017-12-15 06:01:27,178 [1] INFO T1.Program - (null) - Connection status False
+2017-12-15 06:01:27,178 [1] ERROR T1.Program - (null) - Could not connect to SAP Business One. Existing T1.
+2017-12-15 06:02:00,387 [1] DEBUG T1.Program - (null) - Adding ConnectionString to cache
+2017-12-15 06:02:00,545 [1] DEBUG T1.Program - (null) - Starting Connection to SAP Business One
+2017-12-15 06:02:01,991 [1] INFO T1.Program - (null) - Connection status False
+2017-12-15 06:02:01,991 [1] ERROR T1.Program - (null) - Could not connect to SAP Business One. Existing T1.
+2017-12-15 06:02:41,987 [1] DEBUG T1.Program - (null) - Adding ConnectionString to cache
+2017-12-15 06:02:42,038 [1] DEBUG T1.Program - (null) - Starting Connection to SAP Business One
+2017-12-15 06:02:43,731 [1] INFO T1.Program - (null) - Connection status False
+2017-12-15 06:02:43,731 [1] ERROR T1.Program - (null) - Could not connect to SAP Business One. Existing T1.
+2017-12-15 06:03:43,780 [1] DEBUG T1.Program - (null) - Adding ConnectionString to cache
+2017-12-15 06:03:43,844 [1] DEBUG T1.Program - (null) - Starting Connection to SAP Business One
+2017-12-15 06:03:47,719 [1] INFO T1.Program - (null) - Connection status True
+2017-12-15 06:05:23,069 [1] DEBUG T1.Program - (null) - Adding ConnectionString to cache
+2017-12-15 06:05:23,131 [1] DEBUG T1.Program - (null) - Starting Connection to SAP Business One
+2017-12-15 06:05:25,219 [1] INFO T1.Program - (null) - Connection status True
+2017-12-15 06:12:00,040 [1] DEBUG T1.Program - (null) - Adding ConnectionString to cache
+2017-12-15 06:12:00,209 [1] DEBUG T1.Program - (null) - Starting Connection to SAP Business One
+2017-12-15 06:12:02,953 [1] INFO T1.Program - (null) - Connection status False
+2017-12-15 06:12:02,953 [1] ERROR T1.Program - (null) - Could not connect to SAP Business One. Existing T1.
+2017-12-15 06:12:19,200 [1] DEBUG T1.Program - (null) - Adding ConnectionString to cache
+2017-12-15 06:12:19,225 [1] DEBUG T1.Program - (null) - Starting Connection to SAP Business One
+2017-12-15 06:12:20,557 [1] INFO T1.Program - (null) - Connection status False
+2017-12-15 06:12:20,557 [1] ERROR T1.Program - (null) - Could not connect to SAP Business One. Existing T1.
+2017-12-15 06:13:17,124 [1] DEBUG T1.Program - (null) - Adding ConnectionString to cache
+2017-12-15 06:13:17,151 [1] DEBUG T1.Program - (null) - Starting Connection to SAP Business One
+2017-12-15 06:13:21,052 [1] INFO T1.Program - (null) - Connection status True
+2017-12-15 06:19:48,443 [1] DEBUG T1.Program - (null) - Adding ConnectionString to cache
+2017-12-15 06:19:48,476 [1] DEBUG T1.Program - (null) - Starting Connection to SAP Business One
+2017-12-15 06:20:44,238 [1] DEBUG T1.Program - (null) - Adding ConnectionString to cache
+2017-12-15 06:20:44,264 [1] DEBUG T1.Program - (null) - Starting Connection to SAP Business One
+2017-12-15 06:20:45,979 [1] INFO T1.Program - (null) - Connection status False
+2017-12-15 06:20:45,980 [1] ERROR T1.Program - (null) - Could not connect to SAP Business One. Existing T1.
+2018-02-21 15:02:51,866 [1] DEBUG T1.Program - (null) - Adding ConnectionString to cache
+2018-02-21 15:02:52,007 [1] DEBUG T1.Program - (null) - Starting Connection to SAP Business One
+2018-02-21 15:02:52,753 [1] INFO T1.Program - (null) - Connection status False
+2018-02-21 15:02:52,753 [1] ERROR T1.Program - (null) - Could not connect to SAP Business One. Existing T1.

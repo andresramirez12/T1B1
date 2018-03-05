@@ -1,0 +1,11 @@
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.GeneralClasses\Settings\bin\Debug\T1.Settings.dll
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.GeneralClasses\Settings\bin\Debug\T1.Settings.pdb
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.GeneralClasses\Settings\bin\Debug\log4net.dll
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.GeneralClasses\Settings\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.GeneralClasses\Settings\bin\Debug\Westwind.Utilities.Configuration.dll
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.GeneralClasses\Settings\bin\Debug\log4net.xml
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.GeneralClasses\Settings\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.GeneralClasses\Settings\bin\Debug\Westwind.Utilities.Configuration.xml
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.GeneralClasses\Settings\obj\Debug\T1.Config.csprojResolveAssemblyReference.cache
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.GeneralClasses\Settings\obj\Debug\T1.Settings.dll
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.GeneralClasses\Settings\obj\Debug\T1.Settings.pdb

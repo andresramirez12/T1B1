@@ -1,0 +1,14 @@
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.InstallInfo\bin\Debug\T1.B1.Base.InstallInfo.dll.config
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.InstallInfo\bin\Debug\T1.B1.Base.InstallInfo.dll
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.InstallInfo\bin\Debug\T1.B1.Base.InstallInfo.pdb
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.InstallInfo\bin\Debug\log4net.dll
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.InstallInfo\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.InstallInfo\bin\Debug\T1.Log.dll
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.InstallInfo\bin\Debug\Westwind.Utilities.Configuration.dll
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.InstallInfo\bin\Debug\T1.Log.pdb
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.InstallInfo\bin\Debug\log4net.xml
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.InstallInfo\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.InstallInfo\bin\Debug\Westwind.Utilities.Configuration.xml
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.InstallInfo\obj\Debug\T1.B1.Base.InstallInfo.csprojResolveAssemblyReference.cache
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.InstallInfo\obj\Debug\T1.B1.Base.InstallInfo.dll
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.InstallInfo\obj\Debug\T1.B1.Base.InstallInfo.pdb

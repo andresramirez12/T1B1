@@ -1,0 +1,14 @@
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\Admin Service\General Libraries\T1.InstallInfo\bin\x86\Debug\T1.InstallInfo.dll
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\Admin Service\General Libraries\T1.InstallInfo\bin\x86\Debug\T1.InstallInfo.pdb
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\Admin Service\General Libraries\T1.InstallInfo\bin\x86\Debug\log4net.dll
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\Admin Service\General Libraries\T1.InstallInfo\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\Admin Service\General Libraries\T1.InstallInfo\bin\x86\Debug\T1.Log.dll
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\Admin Service\General Libraries\T1.InstallInfo\bin\x86\Debug\T1.Shared.Classes.dll
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\Admin Service\General Libraries\T1.InstallInfo\bin\x86\Debug\Westwind.Utilities.Configuration.dll
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\Admin Service\General Libraries\T1.InstallInfo\bin\x86\Debug\T1.Shared.Classes.pdb
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\Admin Service\General Libraries\T1.InstallInfo\bin\x86\Debug\T1.Log.pdb
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\Admin Service\General Libraries\T1.InstallInfo\bin\x86\Debug\log4net.xml
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\Admin Service\General Libraries\T1.InstallInfo\bin\x86\Debug\Newtonsoft.Json.xml
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\Admin Service\General Libraries\T1.InstallInfo\bin\x86\Debug\Westwind.Utilities.Configuration.xml
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\Admin Service\General Libraries\T1.InstallInfo\obj\x86\Debug\T1.InstallInfo.dll
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\Admin Service\General Libraries\T1.InstallInfo\obj\x86\Debug\T1.InstallInfo.pdb

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VersionControl>
+    <Module>
+        <AdminInfo>
+            <Code></Code>
+            <Name></Name>
+            <Version></Version>
+        </AdminInfo>
+        <Installation>
+            <UDT>
+                <Item name="" status="">
+                    
+                </Item>
+            </UDT>
+            <UDF>
+                <Item name="" status=""></Item>
+                <Item name="" status=""></Item>
+                <Item name="" status=""></Item>
+            </UDF>
+            <UDO>
+                <Item name="" status=""></Item>
+            </UDO>
+            <RPT>
+                <Group code="">
+                    <Type code="">
+                        <item source="" name="" code="" status=""></item>
+                        <item source="" name="" code="" status=""></item>
+                    </Type>
+                </Group>
+            </RPT>
+            
+        </Installation>
+        
+    </Module>
+    
+</VersionControl>
+

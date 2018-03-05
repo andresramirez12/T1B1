@@ -1,0 +1,17 @@
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\MainObject\bin\x64\Release\T1.B1.MainObject.dll
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\MainObject\bin\x64\Release\InternalClasses.dll
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\MainObject\bin\x64\Release\log4net.dll
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\MainObject\bin\x64\Release\Newtonsoft.Json.dll
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\MainObject\bin\x64\Release\T1.CacheManager.dll
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\MainObject\bin\x64\Release\T1.Settings.dll
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\MainObject\bin\x64\Release\Westwind.Utilities.Configuration.dll
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\MainObject\bin\x64\Release\T1.Log.dll
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\MainObject\bin\x64\Release\T1.CacheManager.pdb
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\MainObject\bin\x64\Release\log4net.xml
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\MainObject\bin\x64\Release\Newtonsoft.Json.xml
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\MainObject\bin\x64\Release\Westwind.Utilities.Configuration.xml
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\MainObject\obj\x64\Release\T1.B1.MainObject.csprojResolveAssemblyReference.cache
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\MainObject\obj\x64\Release\Interop.SAPbobsCOM.dll
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\MainObject\obj\x64\Release\Interop.SAPbouiCOM.dll
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\MainObject\obj\x64\Release\T1.B1.MainObject.csproj.ResolveComReference.cache
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\MainObject\obj\x64\Release\T1.B1.MainObject.dll

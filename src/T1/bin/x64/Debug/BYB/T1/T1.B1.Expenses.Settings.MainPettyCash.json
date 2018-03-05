@@ -1,0 +1,13 @@
+﻿{
+  "logLevel": "Debug",
+  "pettyCashExpenseType": "CM",
+  "pettyCashPaymentFormType": "BYB_T1PTC001",
+  "pettyCashUDO": "BYB_T1PTC100",
+  "pettyCashLegalizationUDO": "BYB_T1PTC300",
+  "pettyCashConceptUDO": "BYB_T1PTC200",
+  "pettyCashConceptUDOFormType": "UDO_FT_BYB_T1PTC200",
+  "pettyCashLegalizationFormType": "UDO_FT_BYB_T1PTC300",
+  "PCLegalizationFormLastId": "PCLegalizationFormLastId",
+  "PCLegalizationTransactionCode": "T1A2",
+  "SysCurrDeviationAccount": "429581005"
+}

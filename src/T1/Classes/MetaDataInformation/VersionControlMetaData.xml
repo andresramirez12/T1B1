@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Metadata>
+  <Tables>
+    <item name="SAPIFRS">
+      <BOM>
+        <BO>
+          <AdmInfo>
+            <Object>153</Object>
+            <Version>2</Version>
+          </AdmInfo>
+          <UserTablesMD>
+            <row>
+              <TableName>SAPIFRS</TableName>
+              <TableDescription>SAPIFRS</TableDescription>
+              <TableType>bott_NoObject</TableType>
+              <Archivable>tNO</Archivable>
+            </row>
+          </UserTablesMD>
+        </BO>
+      </BOM>
+    </item>
+  </Tables>
+  <UserFields>
+    <item name="ControlXML">
+      <BOM>
+        <BO>
+          <AdmInfo>
+            <Object>152</Object>
+            <Version>2</Version>
+          </AdmInfo>
+          <UserFieldsMD>
+            <row>
+              <Name>ControlXML</Name>
+              <Type>db_Memo</Type>
+              <Size>4</Size>
+              <Description>ControlXML</Description>
+              <SubType>st_None</SubType>
+              <TableName>@SAPIFRS</TableName>
+              <FieldID>0</FieldID>
+              <EditSize>10</EditSize>
+              <Mandatory>tNO</Mandatory>
+            </row>
+          </UserFieldsMD>
+        </BO>
+      </BOM>
+    </item>
+    
+  </UserFields>
+  <UDO/>
+ 
+
+</Metadata>

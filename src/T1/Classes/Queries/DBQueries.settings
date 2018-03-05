@@ -1,0 +1,9 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SAPIFRS.Classes.Queries" GeneratedClassName="DBQueries">
+  <Profiles />
+  <Settings>
+    <Setting Name="getVersionControlSQL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">select [{0}] from [{1}] where Code = '{2}'</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

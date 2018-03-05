@@ -1,0 +1,9 @@
+﻿{
+  "WTMuniInfoUDO": "BYB_T1WHT200",
+  "WTMuniInfoChildUDO": "BYB_T1WHT201",
+  "WTFOrmInfoCachePrefix": "WTInfoForm_",
+  "WTInfoGenCachePrefix": "WTAddOnGenerated_",
+  "WTPurchaseObjects": "[\"141\"]",
+  "WTLastCardCodeCachePrefix": "WTLastCardCode_",
+  "WTSalesObjects": "[\"133\"]"
+}

@@ -1,0 +1,103 @@
+2017-12-15 05:46:29,150 [8] ERROR T1.B1.Expenses.Expenses - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFF428): Estructura de consulta no permitida  [300-33]. The SQL error is 8180
+   at SAPbouiCOM.IDataTable.ExecuteQuery(String Query)
+   at T1.B1.Expenses.Expenses.loadPaymentForm() in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Expenses\Expenses.cs:line 998
+2017-12-15 05:46:32,571 [8] ERROR T1.B1.Expenses.Expenses - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFF428): Estructura de consulta no permitida  [300-33]. The SQL error is 8180
+   at SAPbouiCOM.IDataTable.ExecuteQuery(String Query)
+   at T1.B1.Expenses.Expenses.loadPaymentForm() in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Expenses\Expenses.cs:line 998
+2017-12-15 05:46:34,177 [8] ERROR T1.B1.Expenses.Expenses - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFF428): Estructura de consulta no permitida  [300-33]. The SQL error is 8180
+   at SAPbouiCOM.IDataTable.ExecuteQuery(String Query)
+   at T1.B1.Expenses.Expenses.loadPaymentForm() in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Expenses\Expenses.cs:line 998
+2017-12-15 05:48:06,568 [8] ERROR T1.B1.Expenses.Expenses - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFF428): Estructura de consulta no permitida  [300-33]. The SQL error is 8180
+   at SAPbouiCOM.IDataTable.ExecuteQuery(String Query)
+   at T1.B1.Expenses.Expenses.loadPaymentForm() in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Expenses\Expenses.cs:line 998
+2017-12-15 06:01:27,176 [1] ERROR T1.B1.Connection.Class - (null) - 
+System.Runtime.InteropServices.COMException (0x80010105)
+   at SAPbobsCOM.ICompany.Connect()
+   at T1.B1.Connection.Class.B1Connect(Boolean stopEvents) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\Connection\Connection.cs:line 93
+2017-12-15 06:01:27,178 [1] ERROR T1.Program - (null) - Could not connect to SAP Business One. Existing T1.
+2017-12-15 06:02:01,986 [1] ERROR T1.B1.Connection.Class - (null) - 
+System.Runtime.InteropServices.COMException (0x80010105)
+   at SAPbobsCOM.ICompany.Connect()
+   at T1.B1.Connection.Class.B1Connect(Boolean stopEvents) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\Connection\Connection.cs:line 93
+2017-12-15 06:02:01,991 [1] ERROR T1.Program - (null) - Could not connect to SAP Business One. Existing T1.
+2017-12-15 06:02:43,728 [1] ERROR T1.B1.Connection.Class - (null) - 
+System.Runtime.InteropServices.COMException (0x80010105)
+   at SAPbobsCOM.ICompany.Connect()
+   at T1.B1.Connection.Class.B1Connect(Boolean stopEvents) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\Connection\Connection.cs:line 93
+2017-12-15 06:02:43,731 [1] ERROR T1.Program - (null) - Could not connect to SAP Business One. Existing T1.
+2017-12-15 06:05:51,131 [4] ERROR T1.B1.Expenses.Expenses - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFF428): Estructura de consulta no permitida  [300-33]. The SQL error is 8180
+   at SAPbouiCOM.IDataTable.ExecuteQuery(String Query)
+   at T1.B1.Expenses.Expenses.loadPaymentForm() in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Expenses\Expenses.cs:line 998
+2017-12-15 06:05:52,768 [8] ERROR T1.B1.Expenses.Expenses - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFF428): Estructura de consulta no permitida  [300-33]. The SQL error is 8180
+   at SAPbouiCOM.IDataTable.ExecuteQuery(String Query)
+   at T1.B1.Expenses.Expenses.loadPaymentForm() in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Expenses\Expenses.cs:line 998
+2017-12-15 06:05:54,702 [8] ERROR T1.B1.Expenses.Expenses - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFF428): Estructura de consulta no permitida  [300-33]. The SQL error is 8180
+   at SAPbouiCOM.IDataTable.ExecuteQuery(String Query)
+   at T1.B1.Expenses.Expenses.loadPaymentForm() in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Expenses\Expenses.cs:line 998
+2017-12-15 06:05:56,272 [8] ERROR T1.B1.Expenses.Expenses - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFF428): Estructura de consulta no permitida  [300-33]. The SQL error is 8180
+   at SAPbouiCOM.IDataTable.ExecuteQuery(String Query)
+   at T1.B1.Expenses.Expenses.loadPaymentForm() in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Expenses\Expenses.cs:line 998
+2017-12-15 06:06:00,519 [8] ERROR T1.B1.Expenses.Expenses - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFF428): Estructura de consulta no permitida  [300-33]. The SQL error is 8180
+   at SAPbouiCOM.IDataTable.ExecuteQuery(String Query)
+   at T1.B1.Expenses.Expenses.loadPaymentForm() in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Expenses\Expenses.cs:line 998
+2017-12-15 06:06:04,348 [8] ERROR T1.B1.Expenses.Expenses - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFF428): Estructura de consulta no permitida  [300-33]. The SQL error is 8180
+   at SAPbouiCOM.IDataTable.ExecuteQuery(String Query)
+   at T1.B1.Expenses.Expenses.loadPaymentForm() in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Expenses\Expenses.cs:line 998
+2017-12-15 06:06:06,294 [8] ERROR T1.B1.Expenses.Expenses - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFF428): Estructura de consulta no permitida  [300-33]. The SQL error is 8180
+   at SAPbouiCOM.IDataTable.ExecuteQuery(String Query)
+   at T1.B1.Expenses.Expenses.loadPaymentForm() in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Expenses\Expenses.cs:line 998
+2017-12-15 06:07:04,911 [8] ERROR T1.B1.Expenses.Expenses - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFF428): Estructura de consulta no permitida  [300-33]. The SQL error is 8180
+   at SAPbouiCOM.IDataTable.ExecuteQuery(String Query)
+   at T1.B1.Expenses.Expenses.loadPaymentForm() in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Expenses\Expenses.cs:line 998
+2017-12-15 06:08:10,492 [8] ERROR T1.B1.Expenses.Expenses - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFF428): Estructura de consulta no permitida  [300-33]. The SQL error is 8180
+   at SAPbouiCOM.IDataTable.ExecuteQuery(String Query)
+   at T1.B1.Expenses.Expenses.loadPaymentForm() in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Expenses\Expenses.cs:line 998
+2017-12-15 06:09:53,746 [13] ERROR T1.B1.Expenses.Expenses - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFFC18): Property 'U_PAYMENT' of 'BYB Solicitud de Gasto' is invalid
+   at SAPbobsCOM.IGeneralData.GetProperty(String bstrPropertyName)
+   at T1.B1.Expenses.Expenses.addPaymentDocument(ItemEvent pVal) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Expenses\Expenses.cs:line 1197
+2017-12-15 06:09:53,751 [13] ERROR T1.B1.Expenses.Operations - (null) - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at T1.B1.Expenses.Expenses.addPaymentDocument(ItemEvent pVal) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Expenses\Expenses.cs:line 1396
+   at T1.B1.Expenses.Operations.ItemEvent(String FormUID, ItemEvent& pVal, Boolean& BubbleEvent) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Expenses\Operations.cs:line 521
+2017-12-15 06:10:03,829 [13] ERROR T1.B1.Expenses.Expenses - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFFC18): Property 'U_PAYMENT' of 'BYB Solicitud de Gasto' is invalid
+   at SAPbobsCOM.IGeneralData.GetProperty(String bstrPropertyName)
+   at T1.B1.Expenses.Expenses.addPaymentDocument(ItemEvent pVal) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Expenses\Expenses.cs:line 1197
+2017-12-15 06:10:03,832 [13] ERROR T1.B1.Expenses.Operations - (null) - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at T1.B1.Expenses.Expenses.addPaymentDocument(ItemEvent pVal) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Expenses\Expenses.cs:line 1396
+   at T1.B1.Expenses.Operations.ItemEvent(String FormUID, ItemEvent& pVal, Boolean& BubbleEvent) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Expenses\Operations.cs:line 521
+2017-12-15 06:12:02,950 [1] ERROR T1.B1.Connection.Class - (null) - 
+System.Runtime.InteropServices.COMException (0x80010105)
+   at SAPbobsCOM.ICompany.Connect()
+   at T1.B1.Connection.Class.B1Connect(Boolean stopEvents) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\Connection\Connection.cs:line 93
+2017-12-15 06:12:02,953 [1] ERROR T1.Program - (null) - Could not connect to SAP Business One. Existing T1.
+2017-12-15 06:12:20,554 [1] ERROR T1.B1.Connection.Class - (null) - 
+System.Runtime.InteropServices.COMException (0x80010105)
+   at SAPbobsCOM.ICompany.Connect()
+   at T1.B1.Connection.Class.B1Connect(Boolean stopEvents) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\Connection\Connection.cs:line 93
+2017-12-15 06:12:20,557 [1] ERROR T1.Program - (null) - Could not connect to SAP Business One. Existing T1.
+2017-12-15 06:20:45,977 [1] ERROR T1.B1.Connection.Class - (null) - 
+System.Runtime.InteropServices.COMException (0x80010105)
+   at SAPbobsCOM.ICompany.Connect()
+   at T1.B1.Connection.Class.B1Connect(Boolean stopEvents) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\Connection\Connection.cs:line 93
+2017-12-15 06:20:45,980 [1] ERROR T1.Program - (null) - Could not connect to SAP Business One. Existing T1.
+2018-02-21 15:02:52,746 [1] ERROR T1.B1.Connection.Class - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE3DE): Connection - Could not find SBO that match the connection string
+   at SAPbouiCOM.ISboGuiApi.Connect(String ConnectionStr)
+   at T1.B1.Connection.Class.B1Connect(Boolean stopEvents) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\Connection\Connection.cs:line 53
+2018-02-21 15:02:52,753 [1] ERROR T1.Program - (null) - Could not connect to SAP Business One. Existing T1.

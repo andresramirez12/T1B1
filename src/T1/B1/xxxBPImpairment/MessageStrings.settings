@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SAPIFRS.B1.InventoryImpairment" GeneratedClassName="MessageStrings">
+  <Profiles />
+  <Settings>
+    <Setting Name="selectAnyValidationMessage" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Por favor seleccione al menos un criterio de selección.</Value>
+    </Setting>
+    <Setting Name="selectTransactionMessage" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Las cuentas contables y el código de transacción son campos obligatorios para el registro, por favor seleccione los valores.</Value>
+    </Setting>
+    <Setting Name="transactionValueGreaterThanZero" Type="System.String" Scope="User">
+      <Value Profile="(Default)">El total del deterioro debe ser mayor a cero.</Value>
+    </Setting>
+    <Setting Name="impairmentDoneMessage" Type="System.String" Scope="User">
+      <Value Profile="(Default)">El deterioro se ha contabilizado con éxito. </Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

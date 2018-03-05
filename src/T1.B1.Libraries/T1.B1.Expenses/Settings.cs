@@ -115,10 +115,6 @@ namespace T1.B1.Expenses
                 LegalizationUDO = "BYB_T1EXP400";
                 LegalizationTransactionCode = "T1A1";
                 LastExpenseActiveForm = "LastExpenseActiveForm";
-                
-
-
-
             }
 
             public string logLevel { get; }

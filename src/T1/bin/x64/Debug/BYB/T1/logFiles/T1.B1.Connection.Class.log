@@ -1,0 +1,154 @@
+2017-12-15 06:21:35,078 [1] DEBUG T1.B1.Connection.Class - (null) - Starting SAP Connection
+2017-12-15 06:21:35,082 [1] DEBUG T1.B1.Connection.Class - (null) - Retrieving connection string from Cache
+2017-12-15 06:21:35,156 [1] DEBUG T1.B1.Connection.Class - (null) - Connectong to current company
+2017-12-15 06:21:35,160 [1] INFO T1.B1.Connection.Class - (null) - Connecting to DI API using shared memory library
+2017-12-15 06:21:38,299 [1] DEBUG T1.B1.Connection.Class - (null) - Checking connection status
+2017-12-15 06:21:38,307 [1] DEBUG T1.B1.Connection.Class - (null) - Connected to company FYCO TELECOMUNICACIONES S.A.S
+2017-12-15 06:27:06,497 [1] DEBUG T1.B1.Connection.Class - (null) - Starting SAP Connection
+2017-12-15 06:27:06,502 [1] DEBUG T1.B1.Connection.Class - (null) - Retrieving connection string from Cache
+2017-12-15 06:27:06,600 [1] DEBUG T1.B1.Connection.Class - (null) - Connectong to current company
+2017-12-15 06:27:06,711 [1] INFO T1.B1.Connection.Class - (null) - Connecting to DI API using shared memory library
+2017-12-15 06:27:08,160 [1] DEBUG T1.B1.Connection.Class - (null) - Checking connection status
+2017-12-15 06:27:08,168 [1] DEBUG T1.B1.Connection.Class - (null) - Connected to company FYCO TELECOMUNICACIONES S.A.S
+2017-12-15 06:32:19,789 [1] DEBUG T1.B1.Connection.Class - (null) - Starting SAP Connection
+2017-12-15 06:32:19,795 [1] DEBUG T1.B1.Connection.Class - (null) - Retrieving connection string from Cache
+2017-12-15 06:32:19,861 [1] DEBUG T1.B1.Connection.Class - (null) - Connectong to current company
+2017-12-15 06:32:19,865 [1] INFO T1.B1.Connection.Class - (null) - Connecting to DI API using shared memory library
+2017-12-15 06:32:20,991 [1] DEBUG T1.B1.Connection.Class - (null) - Checking connection status
+2017-12-15 06:32:21,002 [1] DEBUG T1.B1.Connection.Class - (null) - Connected to company FYCO TELECOMUNICACIONES S.A.S
+2017-12-15 06:34:49,940 [1] DEBUG T1.B1.Connection.Class - (null) - Starting SAP Connection
+2017-12-15 06:34:50,113 [1] DEBUG T1.B1.Connection.Class - (null) - Retrieving connection string from Cache
+2017-12-15 06:34:50,216 [1] DEBUG T1.B1.Connection.Class - (null) - Connectong to current company
+2017-12-15 06:34:50,220 [1] INFO T1.B1.Connection.Class - (null) - Connecting to DI API using shared memory library
+2017-12-15 06:34:51,269 [1] DEBUG T1.B1.Connection.Class - (null) - Checking connection status
+2017-12-15 06:34:51,276 [1] DEBUG T1.B1.Connection.Class - (null) - Connected to company FYCO TELECOMUNICACIONES S.A.S
+2017-12-15 08:16:32,189 [1] DEBUG T1.B1.Connection.Class - (null) - Starting SAP Connection
+2017-12-15 08:16:32,193 [1] DEBUG T1.B1.Connection.Class - (null) - Retrieving connection string from Cache
+2017-12-15 08:16:32,271 [1] DEBUG T1.B1.Connection.Class - (null) - Connectong to current company
+2017-12-15 08:16:32,274 [1] INFO T1.B1.Connection.Class - (null) - Connecting to DI API using shared memory library
+2017-12-15 08:16:33,665 [1] DEBUG T1.B1.Connection.Class - (null) - Checking connection status
+2017-12-15 08:16:33,678 [1] DEBUG T1.B1.Connection.Class - (null) - Connected to company FYCO TELECOMUNICACIONES S.A.S
+2017-12-15 08:20:58,304 [1] DEBUG T1.B1.Connection.Class - (null) - Starting SAP Connection
+2017-12-15 08:20:58,374 [1] DEBUG T1.B1.Connection.Class - (null) - Retrieving connection string from Cache
+2017-12-15 08:20:58,574 [1] DEBUG T1.B1.Connection.Class - (null) - Connectong to current company
+2017-12-15 08:20:58,580 [1] INFO T1.B1.Connection.Class - (null) - Connecting to DI API using shared memory library
+2017-12-15 08:20:59,792 [1] DEBUG T1.B1.Connection.Class - (null) - Checking connection status
+2017-12-15 08:20:59,817 [1] DEBUG T1.B1.Connection.Class - (null) - Connected to company FYCO TELECOMUNICACIONES S.A.S
+2017-12-15 09:46:08,113 [1] DEBUG T1.B1.Connection.Class - (null) - Starting SAP Connection
+2017-12-15 09:46:08,117 [1] DEBUG T1.B1.Connection.Class - (null) - Retrieving connection string from Cache
+2017-12-15 09:46:08,184 [1] DEBUG T1.B1.Connection.Class - (null) - Connectong to current company
+2017-12-15 09:46:08,191 [1] INFO T1.B1.Connection.Class - (null) - Connecting to DI API using shared memory library
+2017-12-15 09:46:09,345 [1] DEBUG T1.B1.Connection.Class - (null) - Checking connection status
+2017-12-15 09:46:09,352 [1] DEBUG T1.B1.Connection.Class - (null) - Connected to company FYCO TELECOMUNICACIONES S.A.S
+2017-12-18 05:13:34,613 [1] DEBUG T1.B1.Connection.Class - (null) - Starting SAP Connection
+2017-12-18 05:13:34,628 [1] DEBUG T1.B1.Connection.Class - (null) - Retrieving connection string from Cache
+2017-12-18 05:13:34,721 [1] DEBUG T1.B1.Connection.Class - (null) - Connectong to current company
+2017-12-18 05:13:34,729 [1] INFO T1.B1.Connection.Class - (null) - Connecting to DI API using shared memory library
+2017-12-18 05:13:39,628 [1] DEBUG T1.B1.Connection.Class - (null) - Checking connection status
+2017-12-18 05:13:39,638 [1] DEBUG T1.B1.Connection.Class - (null) - Connected to company FYCO TELECOMUNICACIONES S.A.S
+2018-01-18 04:33:50,464 [1] DEBUG T1.B1.Connection.Class - (null) - Starting SAP Connection
+2018-01-18 04:33:50,485 [1] DEBUG T1.B1.Connection.Class - (null) - Retrieving connection string from Cache
+2018-01-18 04:33:50,553 [1] DEBUG T1.B1.Connection.Class - (null) - Connectong to current company
+2018-01-18 04:33:50,563 [1] INFO T1.B1.Connection.Class - (null) - Connecting to DI API using shared memory library
+2018-01-18 04:33:59,298 [1] DEBUG T1.B1.Connection.Class - (null) - Checking connection status
+2018-01-18 04:33:59,306 [1] DEBUG T1.B1.Connection.Class - (null) - Connected to company FYCO TELECOMUNICACIONES S.A.S
+2018-01-18 04:50:28,199 [1] DEBUG T1.B1.Connection.Class - (null) - Starting SAP Connection
+2018-01-18 04:50:28,218 [1] DEBUG T1.B1.Connection.Class - (null) - Retrieving connection string from Cache
+2018-01-18 04:50:28,314 [1] DEBUG T1.B1.Connection.Class - (null) - Connectong to current company
+2018-01-18 04:50:28,328 [1] INFO T1.B1.Connection.Class - (null) - Connecting to DI API using shared memory library
+2018-01-18 04:50:29,761 [1] DEBUG T1.B1.Connection.Class - (null) - Checking connection status
+2018-01-18 04:50:29,772 [1] DEBUG T1.B1.Connection.Class - (null) - Connected to company FYCO TELECOMUNICACIONES S.A.S
+2018-01-30 03:42:31,720 [1] DEBUG T1.B1.Connection.Class - (null) - Starting SAP Connection
+2018-01-30 03:42:31,725 [1] DEBUG T1.B1.Connection.Class - (null) - Retrieving connection string from Cache
+2018-01-30 03:42:31,906 [1] DEBUG T1.B1.Connection.Class - (null) - Connectong to current company
+2018-01-30 03:42:31,915 [1] INFO T1.B1.Connection.Class - (null) - Connecting to DI API using shared memory library
+2018-01-30 03:42:43,026 [1] DEBUG T1.B1.Connection.Class - (null) - Checking connection status
+2018-01-30 03:42:43,033 [1] DEBUG T1.B1.Connection.Class - (null) - Connected to company FYCO TELECOMUNICACIONES S.A.S
+2018-01-30 06:34:53,255 [1] DEBUG T1.B1.Connection.Class - (null) - Starting SAP Connection
+2018-01-30 06:34:53,262 [1] DEBUG T1.B1.Connection.Class - (null) - Retrieving connection string from Cache
+2018-01-30 06:34:53,334 [1] DEBUG T1.B1.Connection.Class - (null) - Connectong to current company
+2018-01-30 06:34:53,339 [1] INFO T1.B1.Connection.Class - (null) - Connecting to DI API using shared memory library
+2018-01-30 06:34:56,915 [1] DEBUG T1.B1.Connection.Class - (null) - Checking connection status
+2018-01-30 06:34:56,922 [1] DEBUG T1.B1.Connection.Class - (null) - Connected to company SER_PDB
+2018-01-30 06:36:37,442 [1] DEBUG T1.B1.Connection.Class - (null) - Starting SAP Connection
+2018-01-30 06:36:37,483 [1] DEBUG T1.B1.Connection.Class - (null) - Retrieving connection string from Cache
+2018-01-30 06:36:37,620 [1] DEBUG T1.B1.Connection.Class - (null) - Connectong to current company
+2018-01-30 06:36:37,655 [1] INFO T1.B1.Connection.Class - (null) - Connecting to DI API using shared memory library
+2018-01-30 06:36:39,937 [1] DEBUG T1.B1.Connection.Class - (null) - Checking connection status
+2018-01-30 06:36:39,944 [1] DEBUG T1.B1.Connection.Class - (null) - Connected to company SER_PDB
+2018-01-30 06:45:42,723 [1] DEBUG T1.B1.Connection.Class - (null) - Starting SAP Connection
+2018-01-30 06:45:42,729 [1] DEBUG T1.B1.Connection.Class - (null) - Retrieving connection string from Cache
+2018-01-30 06:45:42,799 [1] DEBUG T1.B1.Connection.Class - (null) - Connectong to current company
+2018-01-30 06:45:42,803 [1] INFO T1.B1.Connection.Class - (null) - Connecting to DI API using shared memory library
+2018-01-30 06:45:44,058 [1] DEBUG T1.B1.Connection.Class - (null) - Checking connection status
+2018-01-30 06:45:44,065 [1] DEBUG T1.B1.Connection.Class - (null) - Connected to company SER_PDB
+2018-01-30 06:55:04,638 [1] DEBUG T1.B1.Connection.Class - (null) - Starting SAP Connection
+2018-01-30 06:55:04,655 [1] DEBUG T1.B1.Connection.Class - (null) - Retrieving connection string from Cache
+2018-01-30 06:55:04,829 [1] DEBUG T1.B1.Connection.Class - (null) - Connectong to current company
+2018-01-30 06:55:04,910 [1] INFO T1.B1.Connection.Class - (null) - Connecting to DI API using shared memory library
+2018-01-30 06:55:06,304 [1] DEBUG T1.B1.Connection.Class - (null) - Checking connection status
+2018-01-30 06:55:06,312 [1] DEBUG T1.B1.Connection.Class - (null) - Connected to company SER_PDB
+2018-01-30 07:09:18,901 [1] DEBUG T1.B1.Connection.Class - (null) - Starting SAP Connection
+2018-01-30 07:09:18,907 [1] DEBUG T1.B1.Connection.Class - (null) - Retrieving connection string from Cache
+2018-01-30 07:09:19,178 [1] DEBUG T1.B1.Connection.Class - (null) - Connectong to current company
+2018-01-30 07:09:19,270 [1] INFO T1.B1.Connection.Class - (null) - Connecting to DI API using shared memory library
+2018-01-30 07:09:20,811 [1] DEBUG T1.B1.Connection.Class - (null) - Checking connection status
+2018-01-30 07:09:20,819 [1] DEBUG T1.B1.Connection.Class - (null) - Connected to company SER_PDB
+2018-01-30 07:13:55,598 [1] DEBUG T1.B1.Connection.Class - (null) - Starting SAP Connection
+2018-01-30 07:13:55,605 [1] DEBUG T1.B1.Connection.Class - (null) - Retrieving connection string from Cache
+2018-01-30 07:13:55,678 [1] DEBUG T1.B1.Connection.Class - (null) - Connectong to current company
+2018-01-30 07:13:55,703 [1] INFO T1.B1.Connection.Class - (null) - Connecting to DI API using shared memory library
+2018-01-30 07:13:56,945 [1] DEBUG T1.B1.Connection.Class - (null) - Checking connection status
+2018-01-30 07:13:56,954 [1] DEBUG T1.B1.Connection.Class - (null) - Connected to company SER_PDB
+2018-01-30 07:15:28,787 [1] DEBUG T1.B1.Connection.Class - (null) - Starting SAP Connection
+2018-01-30 07:15:28,797 [1] DEBUG T1.B1.Connection.Class - (null) - Retrieving connection string from Cache
+2018-01-30 07:15:28,941 [1] DEBUG T1.B1.Connection.Class - (null) - Connectong to current company
+2018-01-30 07:15:29,037 [1] INFO T1.B1.Connection.Class - (null) - Connecting to DI API using shared memory library
+2018-01-30 07:15:31,182 [1] DEBUG T1.B1.Connection.Class - (null) - Checking connection status
+2018-01-30 07:15:31,192 [1] DEBUG T1.B1.Connection.Class - (null) - Connected to company SER_PDB
+2018-01-30 07:19:28,357 [1] DEBUG T1.B1.Connection.Class - (null) - Starting SAP Connection
+2018-01-30 07:19:28,364 [1] DEBUG T1.B1.Connection.Class - (null) - Retrieving connection string from Cache
+2018-01-30 07:19:28,435 [1] DEBUG T1.B1.Connection.Class - (null) - Connectong to current company
+2018-01-30 07:19:28,438 [1] INFO T1.B1.Connection.Class - (null) - Connecting to DI API using shared memory library
+2018-01-30 07:19:29,700 [1] DEBUG T1.B1.Connection.Class - (null) - Checking connection status
+2018-01-30 07:19:29,709 [1] DEBUG T1.B1.Connection.Class - (null) - Connected to company SER_PDB
+2018-01-30 07:41:09,430 [1] DEBUG T1.B1.Connection.Class - (null) - Starting SAP Connection
+2018-01-30 07:41:09,466 [1] DEBUG T1.B1.Connection.Class - (null) - Retrieving connection string from Cache
+2018-01-30 07:41:09,550 [1] DEBUG T1.B1.Connection.Class - (null) - Connectong to current company
+2018-01-30 07:41:09,554 [1] INFO T1.B1.Connection.Class - (null) - Connecting to DI API using shared memory library
+2018-01-30 07:41:10,814 [1] DEBUG T1.B1.Connection.Class - (null) - Checking connection status
+2018-01-30 07:41:10,822 [1] DEBUG T1.B1.Connection.Class - (null) - Connected to company SER_PDB
+2018-01-30 07:42:10,434 [1] DEBUG T1.B1.Connection.Class - (null) - Starting SAP Connection
+2018-01-30 07:42:10,439 [1] DEBUG T1.B1.Connection.Class - (null) - Retrieving connection string from Cache
+2018-01-30 07:42:10,542 [1] DEBUG T1.B1.Connection.Class - (null) - Connectong to current company
+2018-01-30 07:42:10,546 [1] INFO T1.B1.Connection.Class - (null) - Connecting to DI API using shared memory library
+2018-01-30 07:42:11,936 [1] DEBUG T1.B1.Connection.Class - (null) - Checking connection status
+2018-01-30 07:42:11,946 [1] DEBUG T1.B1.Connection.Class - (null) - Connected to company SER_PDB
+2018-01-31 08:05:15,120 [1] DEBUG T1.B1.Connection.Class - (null) - Starting SAP Connection
+2018-01-31 08:05:15,144 [1] DEBUG T1.B1.Connection.Class - (null) - Retrieving connection string from Cache
+2018-01-31 08:05:15,261 [1] DEBUG T1.B1.Connection.Class - (null) - Connectong to current company
+2018-01-31 08:05:15,266 [1] INFO T1.B1.Connection.Class - (null) - Connecting to DI API using shared memory library
+2018-01-31 08:05:24,372 [1] DEBUG T1.B1.Connection.Class - (null) - Checking connection status
+2018-01-31 08:05:24,380 [1] DEBUG T1.B1.Connection.Class - (null) - Connected to company SER_PDB
+2018-01-31 08:11:17,879 [1] DEBUG T1.B1.Connection.Class - (null) - Starting SAP Connection
+2018-01-31 08:11:17,895 [1] DEBUG T1.B1.Connection.Class - (null) - Retrieving connection string from Cache
+2018-01-31 08:11:18,126 [1] DEBUG T1.B1.Connection.Class - (null) - Connectong to current company
+2018-01-31 08:11:18,155 [1] INFO T1.B1.Connection.Class - (null) - Connecting to DI API using shared memory library
+2018-01-31 08:12:17,272 [1] ERROR T1.B1.Connection.Class - (null) - 
+System.Runtime.InteropServices.COMException (0x80010105)
+   at SAPbobsCOM.ICompany.Connect()
+   at T1.B1.Connection.Class.B1Connect(Boolean stopEvents) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\Connection\Connection.cs:line 93
+2018-01-31 08:13:30,453 [1] DEBUG T1.B1.Connection.Class - (null) - Starting SAP Connection
+2018-01-31 08:13:30,480 [1] DEBUG T1.B1.Connection.Class - (null) - Retrieving connection string from Cache
+2018-01-31 08:13:30,567 [1] DEBUG T1.B1.Connection.Class - (null) - Connectong to current company
+2018-01-31 08:13:30,571 [1] INFO T1.B1.Connection.Class - (null) - Connecting to DI API using shared memory library
+2018-01-31 08:13:31,708 [1] ERROR T1.B1.Connection.Class - (null) - 
+System.Runtime.InteropServices.COMException (0x80010105)
+   at SAPbobsCOM.ICompany.Connect()
+   at T1.B1.Connection.Class.B1Connect(Boolean stopEvents) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\Connection\Connection.cs:line 93
+2018-01-31 08:16:56,522 [1] DEBUG T1.B1.Connection.Class - (null) - Starting SAP Connection
+2018-01-31 08:16:56,532 [1] DEBUG T1.B1.Connection.Class - (null) - Retrieving connection string from Cache
+2018-01-31 08:16:56,647 [1] DEBUG T1.B1.Connection.Class - (null) - Connectong to current company
+2018-01-31 08:16:56,653 [1] INFO T1.B1.Connection.Class - (null) - Connecting to DI API using shared memory library
+2018-01-31 08:17:00,389 [1] DEBUG T1.B1.Connection.Class - (null) - Checking connection status
+2018-01-31 08:17:00,397 [1] DEBUG T1.B1.Connection.Class - (null) - Connected to company SER_PDB

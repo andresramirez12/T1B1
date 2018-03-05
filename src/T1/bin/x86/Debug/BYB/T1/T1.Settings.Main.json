@@ -1,0 +1,6 @@
+﻿{
+  "logLevel": "Debug",
+  "connStringCacheName": "connectionString",
+  "baseConfigFolder": "\\BYB\\T1\\",
+  "createMD": false
+}

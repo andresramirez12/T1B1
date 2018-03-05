@@ -1106,7 +1106,7 @@ namespace T1.B1.WithholdingTax
                     dbDocTotal = objDoc.DocTotal;
                     dbBaseAmnt = getBaseAmount(objDoc);
                     #region Get ThirdParty Info
-                    objRelatedPartyObject = objCompanyService.GetGeneralService("BYB_T1RPA100");
+                    objRelatedPartyObject = objCompanyService.GetGeneralService("BYB_T1RPAU01");//100
                     oFilter = objRelatedPartyObject.GetDataInterface(GeneralServiceDataInterfaces.gsGeneralDataParams);
                     oFilter.SetProperty("Code", objDoc.CardCode);
                     try
@@ -1239,7 +1239,7 @@ namespace T1.B1.WithholdingTax
                     dbDocTotal = objDoc.DocTotal;
                     dbBaseAmnt = getBaseAmount(objDoc);
                     #region Get ThirdParty Info
-                    objRelatedPartyObject = objCompanyService.GetGeneralService("BYB_T1RPA100");
+                    objRelatedPartyObject = objCompanyService.GetGeneralService("BYB_T1RPAU01");//100
                     oFilter = objRelatedPartyObject.GetDataInterface(GeneralServiceDataInterfaces.gsGeneralDataParams);
                     oFilter.SetProperty("Code", objDoc.CardCode);
                     try

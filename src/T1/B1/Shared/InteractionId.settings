@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="T1.B1.Shared" GeneratedClassName="InteractionId">
+  <Profiles />
+  <Settings>
+    <Setting Name="T1MainFolderMenuId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BYBMS01</Value>
+    </Setting>
+    <Setting Name="T1MainFolderMenuParentId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">43520</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

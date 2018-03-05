@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SAPIFRS.B1.BPImpairment" GeneratedClassName="CacheItemNames">
+  <Profiles />
+  <Settings>
+    <Setting Name="strBPFrom" Type="System.String" Scope="User">
+      <Value Profile="(Default)">cachebp001</Value>
+    </Setting>
+    <Setting Name="strIBPTo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">cachebp002</Value>
+    </Setting>
+    <Setting Name="strBPGroup" Type="System.String" Scope="User">
+      <Value Profile="(Default)">cachebp003</Value>
+    </Setting>
+    <Setting Name="strBPType" Type="System.String" Scope="User">
+      <Value Profile="(Default)">cachebp004</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,743 @@
+2017-12-15 08:18:43,610 [8] ERROR T1.B1.Expenses.Expenses - (null) - 
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: Cannot convert null to 'System.DateTime' because it is a non-nullable value type
+   at CallSite.Target(Closure , CallSite , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at T1.B1.Expenses.Expenses.addPaymentDocument(ItemEvent pVal) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Expenses\Expenses.cs:line 1209
+2018-01-30 06:36:02,847 [8] ERROR T1.B1.WithholdingTax.WithholdingTax - (null) - 
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: Cannot implicitly convert type 'double' to 'string'
+   at CallSite.Target(Closure , CallSite , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at T1.B1.WithholdingTax.WithholdingTax.createMissingOperations(ItemEvent pVal) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.WithholdingTax\WithholdingTax.cs:line 871
+2018-01-30 06:37:16,425 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.Stop()
+   at T1.B1.Base.UIOperations.Operations.stopProgressBar() in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 63
+2018-01-30 06:55:07,862 [6] ERROR T1.B1.WithholdingTax.WithholdingTax - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFF428): Estructura de consulta no permitida  [300-33]. The SQL error is 8180
+   at SAPbouiCOM.IDataTable.ExecuteQuery(String Query)
+   at T1.B1.WithholdingTax.WithholdingTax.loadMissingOperationsForm() in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.WithholdingTax\WithholdingTax.cs:line 789
+2018-01-30 06:55:09,852 [7] ERROR T1.B1.WithholdingTax.WithholdingTax - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFF428): Estructura de consulta no permitida  [300-33]. The SQL error is 8180
+   at SAPbouiCOM.IDataTable.ExecuteQuery(String Query)
+   at T1.B1.WithholdingTax.WithholdingTax.loadMissingOperationsForm() in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.WithholdingTax\WithholdingTax.cs:line 789
+2018-01-30 06:55:11,432 [7] ERROR T1.B1.WithholdingTax.WithholdingTax - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFF428): Estructura de consulta no permitida  [300-33]. The SQL error is 8180
+   at SAPbouiCOM.IDataTable.ExecuteQuery(String Query)
+   at T1.B1.WithholdingTax.WithholdingTax.loadMissingOperationsForm() in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.WithholdingTax\WithholdingTax.cs:line 789
+2018-01-30 06:55:12,883 [7] ERROR T1.B1.WithholdingTax.WithholdingTax - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFF428): Estructura de consulta no permitida  [300-33]. The SQL error is 8180
+   at SAPbouiCOM.IDataTable.ExecuteQuery(String Query)
+   at T1.B1.WithholdingTax.WithholdingTax.loadMissingOperationsForm() in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.WithholdingTax\WithholdingTax.cs:line 789
+2018-01-30 06:55:14,413 [7] ERROR T1.B1.WithholdingTax.WithholdingTax - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFF428): Estructura de consulta no permitida  [300-33]. The SQL error is 8180
+   at SAPbouiCOM.IDataTable.ExecuteQuery(String Query)
+   at T1.B1.WithholdingTax.WithholdingTax.loadMissingOperationsForm() in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.WithholdingTax\WithholdingTax.cs:line 789
+2018-01-30 06:55:16,390 [7] ERROR T1.B1.WithholdingTax.WithholdingTax - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFF428): Estructura de consulta no permitida  [300-33]. The SQL error is 8180
+   at SAPbouiCOM.IDataTable.ExecuteQuery(String Query)
+   at T1.B1.WithholdingTax.WithholdingTax.loadMissingOperationsForm() in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.WithholdingTax\WithholdingTax.cs:line 789
+2018-01-30 06:55:19,328 [7] ERROR T1.B1.WithholdingTax.WithholdingTax - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFF428): Estructura de consulta no permitida  [300-33]. The SQL error is 8180
+   at SAPbouiCOM.IDataTable.ExecuteQuery(String Query)
+   at T1.B1.WithholdingTax.WithholdingTax.loadMissingOperationsForm() in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.WithholdingTax\WithholdingTax.cs:line 789
+2018-01-30 06:55:24,153 [7] ERROR T1.B1.WithholdingTax.WithholdingTax - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFF428): Estructura de consulta no permitida  [300-33]. The SQL error is 8180
+   at SAPbouiCOM.IDataTable.ExecuteQuery(String Query)
+   at T1.B1.WithholdingTax.WithholdingTax.loadMissingOperationsForm() in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.WithholdingTax\WithholdingTax.cs:line 789
+2018-01-30 06:55:25,977 [7] ERROR T1.B1.WithholdingTax.WithholdingTax - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFF428): Estructura de consulta no permitida  [300-33]. The SQL error is 8180
+   at SAPbouiCOM.IDataTable.ExecuteQuery(String Query)
+   at T1.B1.WithholdingTax.WithholdingTax.loadMissingOperationsForm() in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.WithholdingTax\WithholdingTax.cs:line 789
+2018-01-30 06:55:34,457 [7] ERROR T1.B1.WithholdingTax.WithholdingTax - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFF428): Estructura de consulta no permitida  [300-33]. The SQL error is 8180
+   at SAPbouiCOM.IDataTable.ExecuteQuery(String Query)
+   at T1.B1.WithholdingTax.WithholdingTax.loadMissingOperationsForm() in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.WithholdingTax\WithholdingTax.cs:line 789
+2018-01-30 06:56:38,100 [7] ERROR T1.B1.WithholdingTax.WithholdingTax - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFF428): Estructura de consulta no permitida  [300-33]. The SQL error is 8180
+   at SAPbouiCOM.IDataTable.ExecuteQuery(String Query)
+   at T1.B1.WithholdingTax.WithholdingTax.loadMissingOperationsForm() in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.WithholdingTax\WithholdingTax.cs:line 789
+2018-01-30 07:11:26,239 [8] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:11:26,824 [8] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:11:27,403 [8] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:11:27,931 [8] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:11:28,457 [8] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:11:28,905 [8] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:11:29,374 [8] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:11:29,824 [8] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:11:30,202 [8] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:11:30,611 [8] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:11:30,975 [8] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:11:31,299 [8] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:11:31,609 [8] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:11:31,881 [8] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:11:32,121 [8] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:11:32,393 [8] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:11:32,609 [8] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:11:32,804 [8] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:11:32,963 [8] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:11:33,090 [8] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:11:33,217 [8] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:11:33,336 [8] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:11:54,588 [8] ERROR T1.B1.WithholdingTax.WithholdingTax - (null) - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at T1.B1.WithholdingTax.WithholdingTax.createMissingOperations(ItemEvent pVal) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.WithholdingTax\WithholdingTax.cs:line 898
+2018-01-30 07:17:21,921 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:22,568 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:23,272 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:23,897 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:24,500 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:25,085 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:25,617 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:26,131 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:26,612 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:27,024 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:27,441 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:27,916 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:28,297 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:28,629 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:28,997 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:29,357 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:29,651 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:29,983 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:30,295 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:30,617 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:30,885 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:31,144 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:31,365 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:31,567 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:31,745 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:31,942 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:32,154 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:32,330 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:32,517 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:32,713 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:32,919 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:33,135 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:33,330 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:33,540 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:33,723 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:33,902 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:34,083 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:34,306 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:34,529 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:34,747 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:34,942 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:35,134 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:35,320 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:35,507 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:35,705 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:35,895 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:36,089 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:36,279 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:36,489 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:36,695 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:36,894 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:37,082 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:37,264 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:37,446 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:37,675 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:37,870 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:38,078 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:38,305 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:38,524 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:38,751 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:38,967 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:39,200 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:39,397 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:39,611 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:39,863 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:40,072 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:40,273 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:40,453 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:40,647 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:40,843 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:41,044 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:41,273 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:41,488 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:41,717 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:41,978 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:42,224 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:42,461 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:42,718 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:42,930 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:43,138 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:43,362 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:43,568 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:43,774 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:43,984 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:44,233 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:44,450 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:44,664 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:44,871 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:45,064 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:45,263 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:45,471 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:45,681 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:45,928 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:46,156 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:46,360 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:46,566 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:46,781 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:47,043 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:47,292 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:47,529 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:47,743 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:47,957 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:48,189 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:48,389 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:48,595 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:48,839 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:49,039 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:49,235 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:49,439 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:49,669 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:49,902 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:50,103 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:50,311 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:50,520 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:50,737 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:50,979 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:51,218 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:51,542 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:51,807 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:52,056 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:52,303 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:52,531 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:52,786 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:53,003 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:53,234 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:53,446 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:53,656 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:53,877 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:54,107 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:54,361 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:54,581 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:54,803 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:55,032 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:55,266 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:55,543 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:55,790 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:56,056 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:56,326 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:56,552 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:56,827 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:57,128 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:57,370 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:17:57,628 [6] ERROR T1.B1.Base.UIOperations.Operations - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFE37B): Progress Bar - has stopped  [66000-88]
+   at SAPbouiCOM.IProgressBar.set_Text(String pVal)
+   at T1.B1.Base.UIOperations.Operations.setProgressBarMessage(String strMessage, Int32 Value) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Base.UIOperations\Operations.cs:line 85
+2018-01-30 07:41:27,410 [6] ERROR T1.B1.WithholdingTax.WithholdingTax - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFF428): Estructura de consulta no permitida  [300-33]. The SQL error is 8180
+   at SAPbouiCOM.IDataTable.ExecuteQuery(String Query)
+   at T1.B1.WithholdingTax.WithholdingTax.loadMissingOperationsForm() in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.WithholdingTax\WithholdingTax.cs:line 790
+2018-01-30 07:41:38,678 [6] ERROR T1.B1.WithholdingTax.WithholdingTax - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFF428): Estructura de consulta no permitida  [300-33]. The SQL error is 8180
+   at SAPbouiCOM.IDataTable.ExecuteQuery(String Query)
+   at T1.B1.WithholdingTax.WithholdingTax.loadMissingOperationsForm() in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.WithholdingTax\WithholdingTax.cs:line 790
+2018-01-31 08:05:37,799 [6] ERROR T1.B1.Expenses.Expenses - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFF428): Estructura de consulta no permitida  [300-33]. The SQL error is 8180
+   at SAPbouiCOM.IDataTable.ExecuteQuery(String Query)
+   at T1.B1.Expenses.Expenses.loadPaymentForm() in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Expenses\Expenses.cs:line 998
+2018-01-31 08:12:17,272 [1] ERROR T1.B1.Connection.Class - (null) - 
+System.Runtime.InteropServices.COMException (0x80010105)
+   at SAPbobsCOM.ICompany.Connect()
+   at T1.B1.Connection.Class.B1Connect(Boolean stopEvents) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\Connection\Connection.cs:line 93
+2018-01-31 08:12:17,277 [1] ERROR T1.Program - (null) - Could not connect to SAP Business One. Existing T1.
+2018-01-31 08:13:31,708 [1] ERROR T1.B1.Connection.Class - (null) - 
+System.Runtime.InteropServices.COMException (0x80010105)
+   at SAPbobsCOM.ICompany.Connect()
+   at T1.B1.Connection.Class.B1Connect(Boolean stopEvents) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\Connection\Connection.cs:line 93
+2018-01-31 08:13:31,712 [1] ERROR T1.Program - (null) - Could not connect to SAP Business One. Existing T1.

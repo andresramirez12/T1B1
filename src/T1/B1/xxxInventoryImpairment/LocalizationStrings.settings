@@ -1,0 +1,9 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SAPIFRS.B1.InventoryImpairment" GeneratedClassName="LocalizationStrings">
+  <Profiles />
+  <Settings>
+    <Setting Name="mnuItemsFilteringString" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Análisis de deterioro de inventario</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

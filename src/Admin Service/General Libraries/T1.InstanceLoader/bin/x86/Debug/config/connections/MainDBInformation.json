@@ -1,0 +1,10 @@
+﻿{
+  "ConnectionId": "{BC694062-5D0E-47B1-8CD1-F0C09E86D9A8}",
+  "ConnectionName": "T1",
+  "DBServerType": "dst_MSSQL2014",
+  "Instance": "WIN-QIL5MFIHVCI",
+  "DefaultSchema": "T1",
+  "UserName": "sa",
+  "Password": "As01rdxdb2",
+  "Type": [ "ODBC" ]
+}

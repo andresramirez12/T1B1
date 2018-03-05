@@ -1,0 +1,10 @@
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.GeneralClasses\Settings\bin\x86\Debug\T1.Settings.dll
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.GeneralClasses\Settings\bin\x86\Debug\T1.Settings.pdb
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.GeneralClasses\Settings\bin\x86\Debug\log4net.dll
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.GeneralClasses\Settings\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.GeneralClasses\Settings\bin\x86\Debug\Westwind.Utilities.Configuration.dll
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.GeneralClasses\Settings\bin\x86\Debug\log4net.xml
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.GeneralClasses\Settings\bin\x86\Debug\Newtonsoft.Json.xml
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.GeneralClasses\Settings\bin\x86\Debug\Westwind.Utilities.Configuration.xml
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.GeneralClasses\Settings\obj\x86\Debug\T1.Settings.dll
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.GeneralClasses\Settings\obj\x86\Debug\T1.Settings.pdb

@@ -1,0 +1,5 @@
+﻿{
+  "getCodeFromCardCode": "Select \"Code\"   from \"@BYB_T1RPA100\" where \"U_CARDCODE\" = '[--CardCode--]'",
+  "getMissingRP": "select \"CardCode\"as \"Código\", \"CardName\" as \"Nombre\", \"LicTradNum\" as \"Identificador\" from OCRD where \"CardCode\" not in(select distinct U_CARDCODE from \"@BYB_T1RPA100\")",
+  "getBPCodeRelation": "Select \"Code\", \"U_CARDCODE\"  from [@BYB_T1RPA100]"
+}

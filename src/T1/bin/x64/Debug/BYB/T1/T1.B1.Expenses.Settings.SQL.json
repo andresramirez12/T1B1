@@ -1,0 +1,7 @@
+﻿{
+  "getMultipleDimQuery": "Select \"UseMltDims\" from OADM",
+  "getApprovedRequests": "select 'N' as \"Aprobar\" ,\"DocEntry\" as \"Documento\",\"U_STARTDATE\" as \"Inicio\",U_ENDDATE as \"Finalización\",\"U_VALUE\" as \"Valor\" from [@BYB_T1EXP600] where \"U_STATUS\" = 'DEFINITIVA'",
+  "getValidPaymentDocuments": "select 'N' as \"Aprobar\" ,\"DocEntry\" as \"Documento\",\"U_STARTDATE\" as \"Inicio\",U_ENDDATE as \"Finalización\",\"U_VALUE\" as \"Valor\", \"U_PAYDATE\" as \"Fecha Pago\", \"U_PAYMENT\" as \"Comprobante de Pago\", \"U_STATUS\" as \"Estado\" from [@BYB_T1EXP600] where \"U_STATUS\" in ([--ValidStatus--])",
+  "getJEFromPayment": "Select \"TransId\" from OVPM where \"DocEntry\" = [--DocEntry--]",
+  "getConceptsCode": "select \"Code\" from [@BYB_T1EXP104] where U_EXPTYPE = '[--ExpType--]'"
+}

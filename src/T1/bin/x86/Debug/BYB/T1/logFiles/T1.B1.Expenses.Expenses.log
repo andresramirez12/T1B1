@@ -1,0 +1,60 @@
+2017-12-15 05:46:29,150 [8] ERROR T1.B1.Expenses.Expenses - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFF428): Estructura de consulta no permitida  [300-33]. The SQL error is 8180
+   at SAPbouiCOM.IDataTable.ExecuteQuery(String Query)
+   at T1.B1.Expenses.Expenses.loadPaymentForm() in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Expenses\Expenses.cs:line 998
+2017-12-15 05:46:32,571 [8] ERROR T1.B1.Expenses.Expenses - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFF428): Estructura de consulta no permitida  [300-33]. The SQL error is 8180
+   at SAPbouiCOM.IDataTable.ExecuteQuery(String Query)
+   at T1.B1.Expenses.Expenses.loadPaymentForm() in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Expenses\Expenses.cs:line 998
+2017-12-15 05:46:34,177 [8] ERROR T1.B1.Expenses.Expenses - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFF428): Estructura de consulta no permitida  [300-33]. The SQL error is 8180
+   at SAPbouiCOM.IDataTable.ExecuteQuery(String Query)
+   at T1.B1.Expenses.Expenses.loadPaymentForm() in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Expenses\Expenses.cs:line 998
+2017-12-15 05:48:06,568 [8] ERROR T1.B1.Expenses.Expenses - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFF428): Estructura de consulta no permitida  [300-33]. The SQL error is 8180
+   at SAPbouiCOM.IDataTable.ExecuteQuery(String Query)
+   at T1.B1.Expenses.Expenses.loadPaymentForm() in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Expenses\Expenses.cs:line 998
+2017-12-15 06:05:51,131 [4] ERROR T1.B1.Expenses.Expenses - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFF428): Estructura de consulta no permitida  [300-33]. The SQL error is 8180
+   at SAPbouiCOM.IDataTable.ExecuteQuery(String Query)
+   at T1.B1.Expenses.Expenses.loadPaymentForm() in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Expenses\Expenses.cs:line 998
+2017-12-15 06:05:52,768 [8] ERROR T1.B1.Expenses.Expenses - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFF428): Estructura de consulta no permitida  [300-33]. The SQL error is 8180
+   at SAPbouiCOM.IDataTable.ExecuteQuery(String Query)
+   at T1.B1.Expenses.Expenses.loadPaymentForm() in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Expenses\Expenses.cs:line 998
+2017-12-15 06:05:54,702 [8] ERROR T1.B1.Expenses.Expenses - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFF428): Estructura de consulta no permitida  [300-33]. The SQL error is 8180
+   at SAPbouiCOM.IDataTable.ExecuteQuery(String Query)
+   at T1.B1.Expenses.Expenses.loadPaymentForm() in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Expenses\Expenses.cs:line 998
+2017-12-15 06:05:56,272 [8] ERROR T1.B1.Expenses.Expenses - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFF428): Estructura de consulta no permitida  [300-33]. The SQL error is 8180
+   at SAPbouiCOM.IDataTable.ExecuteQuery(String Query)
+   at T1.B1.Expenses.Expenses.loadPaymentForm() in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Expenses\Expenses.cs:line 998
+2017-12-15 06:06:00,519 [8] ERROR T1.B1.Expenses.Expenses - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFF428): Estructura de consulta no permitida  [300-33]. The SQL error is 8180
+   at SAPbouiCOM.IDataTable.ExecuteQuery(String Query)
+   at T1.B1.Expenses.Expenses.loadPaymentForm() in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Expenses\Expenses.cs:line 998
+2017-12-15 06:06:04,348 [8] ERROR T1.B1.Expenses.Expenses - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFF428): Estructura de consulta no permitida  [300-33]. The SQL error is 8180
+   at SAPbouiCOM.IDataTable.ExecuteQuery(String Query)
+   at T1.B1.Expenses.Expenses.loadPaymentForm() in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Expenses\Expenses.cs:line 998
+2017-12-15 06:06:06,294 [8] ERROR T1.B1.Expenses.Expenses - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFF428): Estructura de consulta no permitida  [300-33]. The SQL error is 8180
+   at SAPbouiCOM.IDataTable.ExecuteQuery(String Query)
+   at T1.B1.Expenses.Expenses.loadPaymentForm() in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Expenses\Expenses.cs:line 998
+2017-12-15 06:07:04,911 [8] ERROR T1.B1.Expenses.Expenses - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFF428): Estructura de consulta no permitida  [300-33]. The SQL error is 8180
+   at SAPbouiCOM.IDataTable.ExecuteQuery(String Query)
+   at T1.B1.Expenses.Expenses.loadPaymentForm() in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Expenses\Expenses.cs:line 998
+2017-12-15 06:08:10,492 [8] ERROR T1.B1.Expenses.Expenses - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFF428): Estructura de consulta no permitida  [300-33]. The SQL error is 8180
+   at SAPbouiCOM.IDataTable.ExecuteQuery(String Query)
+   at T1.B1.Expenses.Expenses.loadPaymentForm() in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Expenses\Expenses.cs:line 998
+2017-12-15 06:09:53,746 [13] ERROR T1.B1.Expenses.Expenses - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFFC18): Property 'U_PAYMENT' of 'BYB Solicitud de Gasto' is invalid
+   at SAPbobsCOM.IGeneralData.GetProperty(String bstrPropertyName)
+   at T1.B1.Expenses.Expenses.addPaymentDocument(ItemEvent pVal) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Expenses\Expenses.cs:line 1197
+2017-12-15 06:10:03,829 [13] ERROR T1.B1.Expenses.Expenses - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFFC18): Property 'U_PAYMENT' of 'BYB Solicitud de Gasto' is invalid
+   at SAPbobsCOM.IGeneralData.GetProperty(String bstrPropertyName)
+   at T1.B1.Expenses.Expenses.addPaymentDocument(ItemEvent pVal) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Expenses\Expenses.cs:line 1197

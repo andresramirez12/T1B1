@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CrystalReports>
+  <ReportType>
+    <Item name="FSNotes" formId="SAP_FSN001">
+      <Report name="Example Note" file="\B1\FSNotes\CR\ExampleNotesCR.rpt"></Report>
+      <Report name="Custom Note" file="\B1\FSNotes\CR\CustomNotesCR.rpt"></Report>
+      
+    </Item>
+  </ReportType>
+  
+</CrystalReports>

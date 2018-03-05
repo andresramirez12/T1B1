@@ -1,0 +1,22 @@
+﻿{
+  "getAppliedSWTinDOc": "select U_SWTCode as \"Código\", U_BaseAmnt as \"Base\", U_Total as \"Retención\", U_JEEntry as \"Asiento\", \"Canceled\" as \"Canceladas\" from [@BYB_T1SWT200] where U_DocType='[--DocType--]' and U_DocEntry='[--DocEntry--]'",
+  "getMissingSWT": "select distinct 'N' as \"Sel\", \"DocEntry\" as \"Documento\", \"DocNum\" as \"Número\", \"DocDate\" as \"Fecha\", \"DocTotal\" as \"Total\",space(500) as \"Resultado\" from OINV where \"DocEntry\" not in (select distinct \"U_DocEntry\" from [@BYB_T1SWT200]) and \"DocDate\" >= convert(datetime, '[--StartDate--]', 112) and DocDate <= convert(datetime, '[--EndDate--]', 112)",
+  "useVersion2": true,
+  "lastFolderId": "1320002137",
+  "SelfWithHoldingFolderPane": 20,
+  "SelfWithHoldingFolderId": "BYB_FSWT",
+  "showFolderInDocumentsList": "133,179,-133,-179",
+  "getSelfWithHoldingTaxQuery": "SELECT distinct U_MINMOUNT,[@BYB_T1SWT100].\"Code\" ,U_CreditAcct,U_DebitAcct,U_Percent FROM [@BYB_T1SWT100] left join [@BYB_T1SWT101] on [@BYB_T1SWT100].\"Code\" = [@BYB_T1SWT101].\"Code\" where ([@BYB_T1SWT100].U_sales = '[--isSales--]') and (([@BYB_T1SWT100].U_Enabled = 'Y' and [@BYB_T1SWT101].U_CardCode = '[--CardCode--]') or [@BYB_T1SWT100].U_global = 'Y')",
+  "getSelfWithHoldingTaxQueryPurchase": "SELECT distinct U_MINMOUNT,[@BYB_T1SWT100].\"Code\" ,U_CreditAcct,U_DebitAcct,U_Percent FROM [@BYB_T1SWT100] left join [@BYB_T1SWT101] on [@BYB_T1SWT100].\"Code\" = [@BYB_T1SWT101].\"Code\" where ([@BYB_T1SWT100].U_purchase = '[--isPurchase--]') and (([@BYB_T1SWT100].U_Enabled = 'Y' and [@BYB_T1SWT101].U_CardCode = '[--CardCode--]') or [@BYB_T1SWT100].U_global = 'Y')",
+  "WTaxTransCode": "T1SW",
+  "CancelFormUID": "BYB_SWTF001",
+  "getPostedSWtaxQueryV1": "select distinct 'N' as \"Sel.\",TransId as \"Asiento\", TaxDate as \"Fecha\", case when credit > 0 then Credit else Debit end as Total, LineMemo as \"Comentario\", space(500) as Resultado from JDT1 where LineMemo like '%Auto%[--SWTCode--]%' and(TaxDate >= Convert(datetime, '[--StartDate--]', 112) and TaxDate <= Convert(datetime, '[--EndDate--]', 112))",
+  "getPostedSWtaxQueryV2": "select distinct 'N' as \"Sel.\",OJDT.TransId as \"Asiento\", OJDT.TaxDate as \"Fecha\", case when credit > 0 then Credit else Debit end as Total, Memo as \"Comentario\", space(500) as Resultado  from JDT1  inner join OJDT on OJDT.TransId = JDT1.TransId  where OJDT.TransCode = '[--TransCode--]' and(OJDT.TaxDate >= Convert(datetime, '[--StartDate--]', 112) and OJDT.TaxDate <= Convert(datetime, '[--EndDate--]', 112))  and OJDT.StornoToTr is null  and(JDT1.TransId not in (select distinct StornoToTr from OJDT where StornoToTr is not null))",
+  "TransactionCodeBase": true,
+  "getRegistrationFromJEQuery": "SELECT \"DocEntry\" from [@BYB_T1SWT200] where \"U_JEEntry\" = [--JE--]",
+  "SWtaxUDOTransaction": "BYB_T1SWT200",
+  "getWTaxDocuments": "T1.B1.WithholdingTax.QRY001",
+  "getSelfWithHoldingTransactions": "select U_DocEntry, U_DocNum from [@BYB_T1SWT200] where Canceled = 'N' and U_DocDate >= convert(datetime, '[--StartDate--]', 112) and U_DocDate <= convert(datetime, '[--EndDate--]', 112)",
+  "relatedpartyFieldInLines": "U_BYB_RELPAR",
+  "MissingSWTFormUID": "BYB_SWTF002"
+}

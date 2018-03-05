@@ -1,0 +1,14 @@
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\Admin Service\General Libraries\T1.Cron\bin\x86\Debug\T1.Cron.dll
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\Admin Service\General Libraries\T1.Cron\bin\x86\Debug\T1.Cron.pdb
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\Admin Service\General Libraries\T1.Cron\bin\x86\Debug\Common.Logging.Core.dll
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\Admin Service\General Libraries\T1.Cron\bin\x86\Debug\Common.Logging.dll
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\Admin Service\General Libraries\T1.Cron\bin\x86\Debug\Quartz.dll
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\Admin Service\General Libraries\T1.Cron\bin\x86\Debug\Common.Logging.pdb
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\Admin Service\General Libraries\T1.Cron\bin\x86\Debug\Common.Logging.xml
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\Admin Service\General Libraries\T1.Cron\bin\x86\Debug\Common.Logging.Core.pdb
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\Admin Service\General Libraries\T1.Cron\bin\x86\Debug\Common.Logging.Core.xml
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\Admin Service\General Libraries\T1.Cron\bin\x86\Debug\Quartz.pdb
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\Admin Service\General Libraries\T1.Cron\bin\x86\Debug\Quartz.xml
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\Admin Service\General Libraries\T1.Cron\obj\x86\Debug\T1.Cron.csprojResolveAssemblyReference.cache
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\Admin Service\General Libraries\T1.Cron\obj\x86\Debug\T1.Cron.dll
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\Admin Service\General Libraries\T1.Cron\obj\x86\Debug\T1.Cron.pdb

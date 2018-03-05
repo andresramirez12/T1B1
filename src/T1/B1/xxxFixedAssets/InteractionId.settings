@@ -1,0 +1,36 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SAPIFRS.B1.FixedAssets" GeneratedClassName="InteractionId">
+  <Profiles />
+  <Settings>
+    <Setting Name="fixedAssetsMasterFormId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">1473000075</Value>
+    </Setting>
+    <Setting Name="fixedAssetsActivateMenuId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">sapmnu001</Value>
+    </Setting>
+    <Setting Name="fixedAssetsActivateMenuParentId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">5888</Value>
+    </Setting>
+    <Setting Name="productionUnitsFormType" Type="System.String" Scope="User">
+      <Value Profile="(Default)">SAP_FA01</Value>
+    </Setting>
+    <Setting Name="fixedAssetsAddRowMenuId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">sapmnu002</Value>
+    </Setting>
+    <Setting Name="mdTablePath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">/Metadata/Tables/item</Value>
+    </Setting>
+    <Setting Name="mdUserFieldsPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">/Metadata/UserFields/item</Value>
+    </Setting>
+    <Setting Name="mdUDOPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">/Metadata/UDO/item</Value>
+    </Setting>
+    <Setting Name="fixedAssetsMasterFormMatrixId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Item_9</Value>
+    </Setting>
+    <Setting Name="fixedAssetsPUColumnId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Col_1</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

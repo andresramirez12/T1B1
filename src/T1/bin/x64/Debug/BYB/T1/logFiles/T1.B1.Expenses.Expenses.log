@@ -1,0 +1,9 @@
+2017-12-15 08:18:43,610 [8] ERROR T1.B1.Expenses.Expenses - (null) - 
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: Cannot convert null to 'System.DateTime' because it is a non-nullable value type
+   at CallSite.Target(Closure , CallSite , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at T1.B1.Expenses.Expenses.addPaymentDocument(ItemEvent pVal) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Expenses\Expenses.cs:line 1209
+2018-01-31 08:05:37,799 [6] ERROR T1.B1.Expenses.Expenses - (null) - 
+System.Runtime.InteropServices.COMException (0xFFFFF428): Estructura de consulta no permitida  [300-33]. The SQL error is 8180
+   at SAPbouiCOM.IDataTable.ExecuteQuery(String Query)
+   at T1.B1.Expenses.Expenses.loadPaymentForm() in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Expenses\Expenses.cs:line 998

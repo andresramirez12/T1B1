@@ -1,0 +1,9 @@
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\Admin Service\General Libraries\T1.Log\bin\x86\Debug\T1.Log.dll
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\Admin Service\General Libraries\T1.Log\bin\x86\Debug\T1.Log.pdb
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\Admin Service\General Libraries\T1.Log\bin\x86\Debug\log4net.dll
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\Admin Service\General Libraries\T1.Log\bin\x86\Debug\Westwind.Utilities.Configuration.dll
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\Admin Service\General Libraries\T1.Log\bin\x86\Debug\log4net.xml
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\Admin Service\General Libraries\T1.Log\bin\x86\Debug\Westwind.Utilities.Configuration.xml
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\Admin Service\General Libraries\T1.Log\obj\x86\Debug\T1.Log.csprojResolveAssemblyReference.cache
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\Admin Service\General Libraries\T1.Log\obj\x86\Debug\T1.Log.dll
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\Admin Service\General Libraries\T1.Log\obj\x86\Debug\T1.Log.pdb

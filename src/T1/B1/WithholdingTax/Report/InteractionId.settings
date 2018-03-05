@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="T1.B1.WithholdingTax.Report" GeneratedClassName="InteractionId">
+  <Profiles />
+  <Settings>
+    <Setting Name="mnuWHTReportId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">bybC0101</Value>
+    </Setting>
+    <Setting Name="frmWHTReportFormTypeEx" Type="System.String" Scope="User">
+      <Value Profile="(Default)">bybC0102</Value>
+    </Setting>
+    <Setting Name="InternalClassId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BYBC01</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

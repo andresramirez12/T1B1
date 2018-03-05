@@ -1,0 +1,60 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SAPIFRS.B1.InventoryImpairment" GeneratedClassName="InteractionId">
+  <Profiles />
+  <Settings>
+    <Setting Name="mnuItemsFilteringId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">sapII001</Value>
+    </Setting>
+    <Setting Name="frmItemFilteringFormId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">sapII002</Value>
+    </Setting>
+    <Setting Name="frmItemFilteringFormType" Type="System.String" Scope="User">
+      <Value Profile="(Default)">sapII003</Value>
+    </Setting>
+    <Setting Name="mnuItemsFilteringParent" Type="System.String" Scope="User">
+      <Value Profile="(Default)">1760</Value>
+    </Setting>
+    <Setting Name="frmItemResultFormId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">sapII004</Value>
+    </Setting>
+    <Setting Name="frmItemResultFormType" Type="System.String" Scope="User">
+      <Value Profile="(Default)">sapII005</Value>
+    </Setting>
+    <Setting Name="frmEditItemFromId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Item_1</Value>
+    </Setting>
+    <Setting Name="frmEditItemToId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Item_4</Value>
+    </Setting>
+    <Setting Name="frmEditItemGroupId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Item_24</Value>
+    </Setting>
+    <Setting Name="frmEditWarehouseFromId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Item_8</Value>
+    </Setting>
+    <Setting Name="frmEditWarehouseToId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Item_11</Value>
+    </Setting>
+    <Setting Name="frmQueryButtonId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Item_16</Value>
+    </Setting>
+    <Setting Name="frmCmbInvAcctId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Item_10</Value>
+    </Setting>
+    <Setting Name="frmCmbImpAccId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Item_11</Value>
+    </Setting>
+    <Setting Name="frmGridResultId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Item_15</Value>
+    </Setting>
+    <Setting Name="frmColumnDetId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Det. x Art.</Value>
+    </Setting>
+    <Setting Name="frmButtonSum" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Item_1</Value>
+    </Setting>
+    <Setting Name="frmButtonCont" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Item_16</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

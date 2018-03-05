@@ -1,0 +1,4 @@
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\Admin Service\B1 Libraries\T1.B1.JournalEntry\bin\x86\Debug\T1.B1.JournalEntry.dll
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\Admin Service\B1 Libraries\T1.B1.JournalEntry\bin\x86\Debug\T1.B1.JournalEntry.pdb
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\Admin Service\B1 Libraries\T1.B1.JournalEntry\obj\x86\Debug\T1.B1.JournalEntry.dll
+C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\Admin Service\B1 Libraries\T1.B1.JournalEntry\obj\x86\Debug\T1.B1.JournalEntry.pdb

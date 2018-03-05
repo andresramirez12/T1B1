@@ -1,0 +1,54 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="T1.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="version" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0.1.0.0</Value>
+    </Setting>
+    <Setting Name="versionControlSQLTable" Type="System.String" Scope="User">
+      <Value Profile="(Default)">@BYBT1</Value>
+    </Setting>
+    <Setting Name="mdTablePath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">/Metadata/Tables/item</Value>
+    </Setting>
+    <Setting Name="mdUserFieldsPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">/Metadata/UserFields/item</Value>
+    </Setting>
+    <Setting Name="mdUDOPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">/Metadata/UDO/item</Value>
+    </Setting>
+    <Setting Name="AddOnName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BYB T1</Value>
+    </Setting>
+    <Setting Name="VersionControlCacheName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ControlXML</Value>
+    </Setting>
+    <Setting Name="crReportTypePath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">/CrystalReports/ReportType/Item</Value>
+    </Setting>
+    <Setting Name="ReportAuthor" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BYB</Value>
+    </Setting>
+    <Setting Name="crReportPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">./Report</Value>
+    </Setting>
+    <Setting Name="versionControlKey" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BYBT1</Value>
+    </Setting>
+    <Setting Name="versionControlField" Type="System.String" Scope="User">
+      <Value Profile="(Default)">U_ControlXML</Value>
+    </Setting>
+    <Setting Name="versionControlB1Table" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BYBT1</Value>
+    </Setting>
+    <Setting Name="processWindowNameString" Type="System.String" Scope="User">
+      <Value Profile="(Default)">SAP Business One</Value>
+    </Setting>
+    <Setting Name="showB1Message" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="cancelstrCode" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

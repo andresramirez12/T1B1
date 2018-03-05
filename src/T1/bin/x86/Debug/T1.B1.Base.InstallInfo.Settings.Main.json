@@ -1,0 +1,5 @@
+﻿{
+  "logLevel": "Debug",
+  "nancyLocalAddress": "http://localhsot:9001",
+  "configurationBaseFolder": "\\BYB\\T1\\"
+}

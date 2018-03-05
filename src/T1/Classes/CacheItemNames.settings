@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SAPIFRS.Classes" GeneratedClassName="CacheItemNames">
+  <Profiles />
+  <Settings>
+    <Setting Name="currentVersion" Type="System.String" Scope="User">
+      <Value Profile="(Default)">currentVersion</Value>
+    </Setting>
+    <Setting Name="installationInfo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">installationInfo</Value>
+    </Setting>
+    <Setting Name="decimals" Type="System.String" Scope="User">
+      <Value Profile="(Default)">decimals</Value>
+    </Setting>
+    <Setting Name="thousands" Type="System.String" Scope="User">
+      <Value Profile="(Default)">thousands</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,8 @@
+2017-12-15 06:09:53,751 [13] ERROR T1.B1.Expenses.Operations - (null) - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at T1.B1.Expenses.Expenses.addPaymentDocument(ItemEvent pVal) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Expenses\Expenses.cs:line 1396
+   at T1.B1.Expenses.Operations.ItemEvent(String FormUID, ItemEvent& pVal, Boolean& BubbleEvent) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Expenses\Operations.cs:line 521
+2017-12-15 06:10:03,832 [13] ERROR T1.B1.Expenses.Operations - (null) - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at T1.B1.Expenses.Expenses.addPaymentDocument(ItemEvent pVal) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Expenses\Expenses.cs:line 1396
+   at T1.B1.Expenses.Operations.ItemEvent(String FormUID, ItemEvent& pVal, Boolean& BubbleEvent) in C:\Users\Administrator.TELEOS\BYBDEV_SQL\BYB\T1\T1.B1.Libraries\T1.B1.Expenses\Operations.cs:line 521

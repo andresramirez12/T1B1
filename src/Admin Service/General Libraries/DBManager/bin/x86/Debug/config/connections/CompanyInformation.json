@@ -1,0 +1,17 @@
+﻿{
+  "ConnectionId": "{CC694062-5D0E-47B1-8CD1-F0C09E86D9A7}",
+  "ConnectionName": "SBODemoUS",
+  "Server": "WIN-QIL5MFIHVCI",
+  "LicenseServer": "WIN-QIL5MFIHVCI:30000",
+  "DBServerType": "dst_MSSQL2014",
+  "CompanyDB": "SBODemoUS",
+  "DBUserName": "sa",
+  "DBUserPassword": "As01rdxdb2",
+  "B1UserName": "manager",
+  "B1Password": "1234",
+  "Instance": "WIN-QIL5MFIHVCI",
+  "DefaultSchema": "SBODemoUS",
+  "UserName": "sa",
+  "Password": "As01rdxdb2",
+  "Type": ["ODBC","B1"]
+}

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<T1>
+  <library>
+    <name>T1 B1Connection</name>
+    <type>public</type>
+    <assemblyName>T1.B1.Connection</assemblyName>
+    <classString>T1.B1.Connection.Instance</classString>
+    <staticMethod></staticMethod>
+  </library>
+
+  <!--library>
+    <name>T1 Object Reader</name>
+    <type>static</type>
+    <assemblyName>T1.B1.ObjectReader</assemblyName>
+    <classString>ObjectReader</classString>
+    <staticMethod>loadObjects</staticMethod>
+    
+  </library-->
+  <!--library>
+    <name>SuSo.SalesOrder</name>
+    <assemblyName>SuSo.SalesOrder</assemblyName>
+    <classString>SuSo.SalesOrder.Instance</classString>
+  </library>
+
+  <library>
+    <name>SuSo.ItemMaster</name>
+    <assemblyName>SuSo.ItemMaster</assemblyName>
+    <classString>SuSo.ItemMaster.Instance</classString>
+  </library>
+  <library>
+    <name>SuSo.B1.Down.RMA</name>
+    <assemblyName>SuSo.B1.Down.RMA</assemblyName>
+    <classString>SuSo.B1.Down.RMA.Instance</classString>
+  </library>
+  <library>
+    <name>SuSo.B1.Down.Production</name>
+    <assemblyName>SuSo.B1.Down.ProdOrder</assemblyName>
+    <classString>SuSo.B1.Down.ProdOrder.Instance</classString>
+  </library>
+  <library>
+    <name>SuSo.B1.Down.ReserveInvoice</name>
+    <assemblyName>SuSo.B1.Down.ReserveInvoice</assemblyName>
+    <classString>SuSo.B1.Down.ReserveInvoice.Instance</classString>
+  </library-->
+
+
+
+</T1>

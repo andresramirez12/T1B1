@@ -206,10 +206,10 @@ namespace T1.B1.WithholdingTax
             public SQL()
             {
                 getMissingOperationsQuery = "select * from ( select \"DocEntry\",\"DocNum\" as \"Numero\",\"CardCode\" as \"Socio de Negocio\",'Factura Proveedor' as \"Documento\", \"DocTotal\" as \"Total del Documento\"  from OPCH where \"DocEntry\" not in " +
-                                                "( select distinct \"U_DocEntry\" from [@BYB_T1WHT400] where \"U_DocType\" = 18) and \"ObjType\"=18 and \"WTApplied\" > 0 " +
+                                                "( select distinct \"U_DocEntry\" from [@BYB_T1WHT400] where \"U_DocType\" = 18) and \"ObjType\"=18 and \"DocEntry\" in (Select distinct \"AbsEntry\" from PCH5) " +
                                                 " union all "+
 " select \"DocEntry\",\"DocNum\" as \"Numero\",\"CardCode\" as \"Socio de Negocio\",'NC Factura Proveedor' as \"Documento\", \"DocTotal\" as \"Total del Documento\" "+
-" from ORPC where \"DocEntry\" not in (select distinct \"U_DocEntry\" from [@BYB_T1WHT400] where \"U_DocType\" = 19) and \"ObjType\" = 19 and \"WTApplied\" > 0 " +
+" from ORPC where \"DocEntry\" not in (select distinct \"U_DocEntry\" from [@BYB_T1WHT400] where \"U_DocType\" = 19) and \"ObjType\" = 19 and \"DocEntry\" in (Select distinct \"AbsEntry\" from RPC5) " +
 " ) as R order by \"Documento\",\"Numero\" ";
 
                                                 ;

@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="sqlGetActiveCodesSWTForBP" xml:space="preserve">
+    <value>select U_DebitAcct, U_CreditAccount, U_Percent, [@BYB_T1SWT100].Code from 
+[@BYB_T1SWT100] 
+inner join [@BYB_T1SWT101] on [@BYB_T1SWT100].Code = [@BYB_T1SWT101].Code
+
+where U_Enabled='Y' and [@BYB_T1SWT101].U_CardCode = '[--CardCode--]' and [@BYB_T1SWT100].Code='[--SWTCode--]'</value>
+  </data>
+  <data name="sqlGetAllClients" xml:space="preserve">
+    <value>select CardCode, CardName from OCRD where CardType='C'</value>
+  </data>
+  <data name="sqlGetAllDocsWithWTInconsistences" xml:space="preserve">
+    <value>select DocEntry, '13' as "DocType" 
+from
+OINV
+where DocEntry not in 
+( select U_DocEntry from [@BYB_T1WHT400] where U_DocType = '13')
+
+union all
+select DocEntry, '18' as "DocType"
+from
+OPCH
+where DocEntry not in 
+( select U_DocEntry from [@BYB_T1WHT400] where U_DocType = '18')</value>
+  </data>
+  <data name="sqlGetAllWTInconsistences" xml:space="preserve">
+    <value>select sum(Total) as "Total"
+from
+(
+select count(DocEntry)  as "Total"
+from
+OINV
+where DocEntry not in 
+( select U_DocEntry from [@BYB_T1WHT400] where U_DocType = '13')
+
+union all
+select count(DocEntry)  as "Total"
+from
+OPCH
+where DocEntry not in 
+( select U_DocEntry from [@BYB_T1WHT400] where U_DocType = '18')
+
+) as R</value>
+  </data>
+  <data name="sqlGetCurrentInfoFromUDO" xml:space="preserve">
+    <value>SELECT 
+[U_Operation] as [Operación]
+	,OINV.[DocNum]
+	,[U_DocEntry]
+    ,[U_Type] as [Tipo]
+      ,[U_Source] as [Origen]
+      ,[U_Code] as [Código]
+      ,[U_Percent] as [Porcentaje]
+      ,[U_BaseAmnt] as [Base]
+      ,[U_Value] as [Valor]
+      ,[U_JE] as [Asiento]
+  FROM [@BYB_T1WHT401]
+  INNER JOIN [@BYB_T1WHT400] on [@BYB_T1WHT401].DocEntry = [@BYB_T1WHT400].DocEntry
+  INNER JOIN OINV on OINV.DocEntry = [@BYB_T1WHT400].[U_DocEntry]
+  where OINV.DocEntry = [--DocEntry--] and [@BYB_T1WHT400].U_DocType=13</value>
+  </data>
+  <data name="sqlGetCurrentWTandTax" xml:space="preserve">
+    <value>select
+'CON' as 'Origen'
+,'' as 'Linea'
+,'' as 'Codigo Retencion'
+,0 as 'Porcentaje Retencion'
+,TaxCode as 'Codigo IVA'
+,VatPrcnt as 'Porcentaje IVA'
+,sum(LineTotal - vatsum) as 'Base'
+,sum(VatSum) as 'Total'
+,'' as 'Detalle'
+from inv1 where DocEntry=[--DocEntry--]
+group by DocEntry, TaxCode, VatPrcnt
+union all
+select
+'CON' as 'Origen'
+,'' as 'Linea'
+,'' as 'Codigo Retencion'
+,0 as 'Porcentaje Retencion'
+,TaxCode as 'Codigo IVA'
+,VatPrcnt as 'Porcentaje IVA'
+,sum(LineTotal - vatsum) as 'Base'
+,sum(VatSum) as 'Total'
+,'' as 'Detalle'
+from inv3 where DocEntry=[--DocEntry--]
+group by DocEntry, TaxCode,VatPrcnt
+union all
+select
+'CON' as 'Origen'
+,'' as 'Linea'
+,INV5.WTCode as 'Codigo Retencion'
+,PrctBsAmnt as 'Porcentaje Retencion'
+,'' as 'Codigo IVA'
+,0 as 'Porcentaje IVA'
+,sum(TaxbleAmnt) as 'Base'
+,sum(WTAmnt) as 'Total'
+,'' as 'Detalle'
+from inv5
+inner join OWHT on OWHT.WTCode = INV5.WTCode
+ where AbsEntry=[--DocEntry--]
+group by AbsEntry, INV5.WTCode,PrctBsAmnt</value>
+  </data>
+  <data name="sqlGetMissingSWT" xml:space="preserve">
+    <value>select
+'N' as 'Selected'
+,DocNum
+,CardName
+,DocDate
+,DocTotal
+from OINV
+where 
+	DocEntry not in (select distinct U_DocEntry from [@BYB_T1SWT200] where U_SWTCode='[--SWTCode--]') 
+and 
+	DocEntry not in (Select Distinct BaseEntry as 'DocEntry' from RIN1 where BaseEntry is not null and BaseType=13)
+and 
+	OINV.DocDate &gt;= '[--fromDate--]'
+and 
+	OINV.DocDate &lt;= '[--toDate--]'
+order by DocDate</value>
+  </data>
+  <data name="sqlGetUDODocEntry" xml:space="preserve">
+    <value>SELECT [DocEntry]
+from [@BYB_T1WHT400]
+where [U_DocEntry] = [--DocEntry--] and [U_CardCode] = '[--CardCode--]'</value>
+  </data>
+</root>
